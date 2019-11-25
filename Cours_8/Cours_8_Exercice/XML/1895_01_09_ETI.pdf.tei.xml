@@ -1,0 +1,920 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.6-SNAPSHOT" ident="GROBID" when="2019-11-24T19:30+0000">
+					<ref target="https://github.com/MedKhem/grobid-dictionaries">GROBID_Dictionaries - A machine learning software for structuring digitized dictionaries</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"/>
+			</titleStmt>
+
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+<entry><sense>
+<sense>1. ABOUT (Edmond), célèbre écrivain, membre de l'Académie française, n. 1828, m. 1885. Don Quichotte, illustré par G. Doré, article aut. sig., 14 p. in-8. Superbe pièce d'une écriture très fine, remplie de considérations littéraires très curieuses</sense>
+</sense>
+</entry>
+<pc>.</pc>
+<entry><num>2</num>
+
+<form type="lemma">
+<name>. BARERE (Bertrand</name>
+<pc>),</pc>
+<desc>le célèbre conventionnel, n. à Tarbes, 1755, m. 1811</desc>
+</form>
+<pc>.</pc>
+
+<sense>
+<sense>L. a. s. (à Dumouriez); Tarbes, 30 mars 1792, 1 p. 1/2 in-4.</sense>
+<note>Piquante épître où il le félicite de sa nomination au ministère des affaires étrangères. Il a fait voter par le club de Tarbes une adresse de remerciement au roi à propos de cette nomination. « Quelle brillante carrière s'ouvre devant vous! avec votre énergie, vos lumières et vos connaissances militaires et diplomatiques, je vous vois déjà préparer une paix solide ou une guerre décisive. La France remontera au point où ses destinées l'appellent en vain depuis deux ans...</note>
+</sense>
+</entry>
+<pc>»</pc>
+<entry><num>3</num>
+
+<pc>.</pc>
+
+<sense>
+<sense>BAUDELAIRE (Charles), le célèbre poète, auteur des Fleurs du mal, n. 1821, m. 1867. Epitaphe pour un enfant, sonnet autographe, 1 p. in-8. Superbe pièce</sense>
+</sense>
+</entry>
+<pc>.</pc>
+<entry><sense>
+<sense>4. BEAUHARNAIS (Eugène de), vice-roi d'Italie, fils adoptif de Napoléon 1er, n. 1780, m. 1825. L. s. à l'ordonnateur Joubert; Vienne, 13 août 1809, 2 p. in-4.</sense>
+<note>Superbe lettre où il le blâme de sa lenteur à faire rentrer les contributions de guerre imposées à la ville de Trieste. « Si les difficultés continuent vous ferés mettre le séquestre sur toutes espèces de marchandises, et elles auront le sort de celles qui seront conduites à Venise.</note>
+</sense>
+</entry>
+<pc>»</pc>
+<entry><num>5</num>
+
+<form type="lemma">
+<name>. BERLIOZ (Hector</name>
+<pc>),</pc>
+<desc>l'illustre compositeur de musique, n. 1803, m. 1869</desc>
+</form>
+<pc>.</pc>
+
+<sense>
+<sense>L. a. s. à M. Merruau; Londres, 9 mars 1852, 2 p. in 8.</sense>
+<note>Jolie lettre où il lui demande d'obtenir pour lui un congé annuel de trois mois afin de pouvoir donner chaque année des concerts à Londres</note>
+</sense>
+</entry>
+<pc>.</pc>
+<entry><sense>
+<sense>6. BERTHIER (Alexandre), prince de Wagram et de Neuchâtel, maréchal de l'Empire, chef d'état-major de Napoléon, n. à Versailles, 1753, m. 1815. L. s. à l'adjudant général Pascalis ; quartier général de Rivoli, 25 nivôse an V, 7 heures du soir, 1 p. in-fol., tête imprimée.</sense>
+<note>Pièce historique, écrite le soir de la célèbre victoire de Rivoli, gagnée par Bonaparte. Il lui annonce ce nouveau triomphe : « Nous avons attaqué l'ennemi une heure avant le jour dans la position qu'il avait prise en avant de la Corona; après un combat qui a duré sans discontinuer jusqu'à la nuit et sur tous les points, nous avons fait 3,000 prisonniers, enlevé six pièces d'artillerie et pris trois drapeaux. La perte de l'ennemi doit être considérable en tués et blessés. L'ennemi s'est dispersé devant nous. J'espère que demain nous en trouverons peu. Celte victoire est complète. Les généraux Mayer, Sandoz, Lebley sont blessés. Nous avons à regretter quelques autres braves, mais notre perte est peu considérable en raison de nos avantages. On s'est battu avec le plus grand acharnement...</note>
+</sense>
+</entry>
+<pc>»</pc>
+<entry><num>7</num>
+
+<form type="lemma">
+<name>. BERTHIER (Alexandre</name>
+</form>
+<pc>).</pc>
+
+<sense>
+<sense>L. a. s. à Madame Léopold Berthier, sa belle-soeur; Finckenstein, 20 avril 1807, 2 p. in-4.</sense>
+<note>Superbe lettre de condoléances au sujet de la mort de son frère Léopold. Il l'assure de son attachement. « Tant qu'à vos intérêts, quant à ceux des enfans de mon frère, ils sont les miens. Comptés donc sur moi, puisse mon amitié vous porter quelques consolations.» On a joint une lettre de 4 p. aut. sig. de Léopold Berthier à sa femme, entièrement remplie de termes d'affection</note>
+</sense>
+</entry>
+<pc>.</pc>
+<entry><sense>
+<sense>8. BERTHIER (César), célèbre général de l'Empire, frère d'Alexandre Berthier, qu'il seconda dans ses travaux, n. 1765, m. 1819. L. a. s. à un ami; (Paris), 2 vendémiaire an XIV, 4 p. in-4.</sense>
+	<note>Très curieuse lettre où il exprime son enthousiasme pour Napoléon et son désir de combattre sous ses yeux. Il parle du général Mack et dit qu'il doit être bien sot. et qu'il a bien ce qu'il mérite. « On dit ici qu'il s'est tué, c'est ce qu'il avait de mieux à faire... Les actions de la Banque sont au plus haut et tout Paris est dans l'enthousiasme.») Mack capitula à Ulm le 17 vendémiaire suivant. Il rapporte ensuite une allocution du prince Joseph aux officiers généraux demeurés à Paris. Très intéressants détails</note>
+</sense>
+</entry>
+<pc>.</pc>
+<entry><sense>
+<sense>9. BERTRAND (Henri-Gratien comte) général, grand maréchal du palais de Napoléon Ier, qu'il accompagna à Sainte-Hélène, n. 1773, m. 1844. 1° L. a. s. au comte de Rambuteau; Paris, 3 juin 1840, 1 p. 1/4 in-4. Belle lettre où il lui annonce l'envoi d'un projet médité par Napoléon Ier pour fortifier Paris. 2° P. a. s.; Paris, 5 juin 1840, 2 p. 1/2 in-4. C'est le projet annoncé dans la lettre ci-dessus. Bertrand y raconte</sense>
+<note>les événements des derniers jours de mars 1814 et il s'attache à démontrer que si Paris avait été fortifié la ville aurait pu résister quelques heures de plus, ce qui aurait permis à l'Empereur de venir au secours de la capitale</note>
+</sense>
+</entry>
+<pc>.</pc>
+<entry><num>10</num>
+
+<form type="lemma">
+<name>. BIRON (Armand-Louis de Gontaut</name>
+<pc>,</pc>
+<desc>duc de Lauzun, puis duc de</desc>
+<pc>),</pc>
+<desc>célèbre général des armées de la République, décapité en 1793</desc>
+</form>
+<pc>.</pc>
+
+<sense>
+<sense>L. a. s. (à Santerre?); (1792), 3 p. in-4.</sense>
+<note>Superbe lettre, écrite comme général en chef de l'armée du Rhin, où il lui demande des armes, « car il m'arrive de tout côté de beaux et bons hommes, qui n'ont point d'armes et à qui je ne peux pas en donner, ce qui leur donne beaucoup d'humeur.</note>
+</sense>
+</entry>
+<pc>»</pc>
+<entry><sense>
+<sense>11. BONAPARTE (Loetitia Ramolino), la mère de Napoléon Ier, n. 1750, m. 1836. L. s. tua affe madre avec trois lignes aut. (à son fils Lucien); Paris, 23 septembre 1808, 3 p. 1/2 in-4. Tres curieuse lettre. Les dissentiments qui existent entre Napoléon et Lucien la désolent. Elle n'a pas pu parler à l'Empereur avant son</sense>
+<note>départ ainsi que Lucien le désirait, elle ne croit pas d'ailleurs que sa demande eût été accueillie. Elle le conjure de ne pas partir en Amérique s'il ne veut pas avoir à se reprocher la mort de sa mère. Elle lui conseille d'attendre des temps meilleurs et de rester en Toscane, Le sort de Joseph n'est pas meilleur que le sien, il est triste sous tous les rapports et elle l'assure que tous ses parents lui sont affectionnés</note>
+</sense>
+</entry>
+<pc>.</pc>
+<entry><num>12</num>
+
+<form type="lemma">
+<name>. BONAPARTE (Joseph</name>
+<pc>),</pc>
+<desc>frère aîné de Napoléon 1er, roi de Naples, puis d'Espagne, n. 1768, m. 1844</desc>
+</form>
+<pc>.</pc>
+
+<sense>
+<sense>L. a. s.; Philadelphie, 6 mars 1823, 4 p. in-4.</sense>
+<note>Il s'étonne que le fils de Mme de Staël ne désavoue pas l'ouvrage Dix ans d'exil, publié récemment. Mme de Staël était amie de l'Empereur en 1815, parce que son esprit supérieur lui avait fait connaître alors qu'il était la seule planche de salut dans le débordement de tous les préjugés, de toutes les passions, de tous les mépris de la vieille oligarchie de l'Europe...</note>
+</sense>
+</entry>
+<pc>»</pc>
+<entry><num>13</num>
+
+<form type="lemma">
+<name>. BONAPARTE (Louis</name>
+<pc>),</pc>
+<desc>frère de Napoléon Ier, roi de Hollande, père de Napoléon III, n. 1778, m. 1846</desc>
+</form>
+<pc>.</pc>
+
+<sense>
+<sense>L. a. s. à son oncle (le cardinal Fesch); Toeplitz, 20 juillet 1810, 1 p. 1/2 in-4. Curieuse épitre.</sense>
+<note>Il déclare qu'ayant quilté la Hollande, il ne veut plus rien être. Il le prie de savoir si son frère lui permettrait de se retirer en Corse avec le plus jeune de ses enfants (depuis Napoléon III)</note>
+</sense>
+</entry>
+<pc>.</pc>
+<entry><num>14</num>
+
+<form type="lemma">
+<name>. BONAPARTE (Hortense Beauharnais</name>
+<pc>),</pc>
+<desc>reine de Hollande, femme du précédent, n. 1783, m. 1837.</desc>
+</form>
+	<sense>
+		<sense>L. s. (au général Vaudoncourt); 30 juillet 1828, 1 p. 1/2 in-8.</sense>
+		<note>Curieuse lettre. Elle le prie de réfuter dans une prochaine édition de son ouvrage sur le prince Eugène, une erreur qui n'est que trop accréditée. Son frère ne s'est jamais fait annoncer chez Louis XVIII, sous le titre de marquis de Beauharnais. « D'abord ce n'était pas son titre, ensuite on n'annonce pas chez un roi, et, la Charte reconnaissant tous les titres, il n'aurait pas eu toute l'élévation qu'on devait attendre de son noble caractère à renier celui de Prince Eugène qu'il avait gagné, illustré, et que rien ne lui forçait à quitter.»</note>
+	</sense>
+</entry>
+<entry><num>15</num>
+
+<form type="lemma">
+<name>. CAFFARELLI DU FALGA (Maximilien</name>
+<pc>),</pc>
+<desc>célèbre général du génie, n. 1756, blessé mortellement au siège de Saint-Jean-d'Acre, en 1799</desc>
+</form>
+<pc>.</pc>
+
+<sense>
+<sense>L. a. s. à de Grave; Strasbourg, 30 avril 1792, 1 p. in-fol. Rare.</sense>
+<note>Très belle lettre où il déclare qu'il a repris du service pour se consacrer à la défense de la patrie. Intéressants détails</note>
+</sense>
+</entry>
+<pc>.</pc>
+<entry><sense>
+<sense>16. CARPEAUX (Jean-Baptiste), le grand sculpteur, n. à Valenciennes, 1827, m. 1875. L. a. s.; Paris, 6 août 1864, 1 p. 1/2 in-8. Il demande à toucher le quart du prix d'exécution de sa statue de la Tempérance qu'il vient de terminer pour l'église de la Trinité. 17. CHARLES Ier, roi d'Angleterre, décapité en 1649. L. s., en français, avec la souscription autographe, à Gasron D'ORLéans; palais de Westmestre, 28 avril 1636, 3/4 de p. infolio.</sense>
+<note>Superbe lettre où il le prie de donner créance, à tout ce que lui dira de sa part son ambassadeur extraordinaire le comte de Leicestre</note>
+</sense>
+</entry>
+<pc>.</pc>
+<entry><num>18</num>
+
+<form type="lemma">
+<name>. CHATEAUROUX (Marie-Anne de Mailly, duchesse de</name>
+<pc>),</pc>
+<desc>la célèbre maîtresse de Louis XV, n. 1717, m. 1744</desc>
+</form>
+<pc>.</pc>
+
+<sense>
+<sense>L. a. s. au maréchal de Noailles; Lille, 27 juin, 1/2 p. in-4, cachet. Très rare. Belle lettre de félicitations sur ses exploits militaires</sense>
+</sense>
+</entry>
+<pc>.</pc>
+<entry><sense>
+<sense>19. COFFINHAL (Jean-Baptiste), vice-président du tribunal révolutionnaire, ami de Robespierre, n. à Aurillac, 1754, guillotiné le 18 thermidor an II. L. a. s. à Serizier; Paris, 19 mars 1793, 1 p. in-4. Jolie lettre où il l'informe qu'il vient d'être nommé commissaire national près le tribunal du second arrondissement du département de Paris</sense>
+</sense>
+</entry>
+<pc>.</pc>
+<entry><num>20</num>
+
+<form type="lemma">
+<name>. COGNIET (Léon</name>
+<pc>),</pc>
+<desc>célèbre peintre d'histoire et de portraits, membre de l'Institut, n. 1794, m. 1880</desc>
+</form>
+<pc>.</pc>
+
+<sense>
+<sense>L. a. s. au comte de Rambuteau, 2 p. in-4.</sense>
+<note>Jolie lettre où il lui propose de se démettre en faveur de M. Johannot de la commande qui lui avait été faite d'un tableau de Bailly. On a joint un dessin, représentant une tête de cheval, attribué à Cogniet</note>
+</sense>
+</entry>
+<pc>.</pc>
+<entry><num>21</num>
+
+<form type="lemma">
+<name>. CONDE (Louise-Françoise de Bourbon, princesse de</name>
+<pc>),</pc>
+<desc>fille naturelle de Louis XIV et de Madame de Montespan, n. 1673, m. 1743</desc>
+</form>
+<pc>.</pc>
+
+<sense>
+<sense>L. a. s. au cardinal de Fleury; (juillet 1726), 4 p. 1/2 in-4. Elle est en désaccord sur des questions de préséance avec la maison d'Orléans. Longs développements à ce sujet</sense>
+</sense>
+</entry>
+<pc>.</pc>
+<entry><num>22</num>
+
+<pc>.</pc>
+
+<sense>
+<sense>COPPEE (François), le célèbre poète, auteur de Severo Torelli, membre de l'Académie française. Quatre dizains, pièce de vers aut. sig., 2 p. in-4. Jolie pièce</sense>
+</sense>
+</entry>
+<pc>.</pc>
+<entry><num>23</num>
+
+<form type="lemma">
+<name>. DAUMIER (Honoré</name>
+<pc>),</pc>
+<desc>célèbre dessinateur et caricaturiste, n. à Marseille, 1808, m. 1879</desc>
+</form>
+<pc>.</pc>
+
+<sense>
+<sense>L. a. s. à M. Boulard, 1 p. in-8. Très rare.</sense>
+<note>Jolie lettre où il lui demande de lui prêter un dessin qu'il lui a vendu; il rassemble tous ses ouvrages pour conclure une affaire</note>
+</sense>
+</entry>
+<pc>.</pc>
+<entry><num>24</num>
+
+<pc>.</pc>
+
+<sense>
+<sense>DECRES (Denis, duc), amiral, ministre de la marine de Napoléon Ier, n. 1761, m. 1820. L. s. à Linois; Paris, 30 prairial an XIII, 5 p. 1/2 in-fol. Très curieuse lettre où il lui donne des instructions pour sa pro¬</sense>
+<note>chaine croisière dans les mers de l'Inde. Il lui recommande de se rapprocher du général Decaen et lui dit que la meilleure manière de faire son apologie c'est de battre et détruire l'eunemi partout où ille rencontrera. Ou a joint la ccopie d'une lettre du contre-amiral Linois au général Decaen, certifiée conforme par ce dernier, 25. DUGOMMIER (Jacques Coquille), célèbre général républicain, tué à la bataille de la Montagne Noire, en 1794. L. a. s. à d'Espinoy; quartier général de l'armée des Pyrénées (novembre 1794), 3 p. 1/2 in-4, tête impriméej avec la devise : Guerre à mort aux tyrans. Très rare. Superbe lettre où il lui marque qu'il envie son bonheur d'être à Paris. « Te voilà donc dans la grande commune et sur cette mer orageuse où le vaisseau de la Révolution navigue majestueusement et brave si heureusement les tempêtes et les écueils. » Il ne sait encore quand il aura son tour. (Dugommier avait été élu député à la Convention par la Martinique.) En attendant, il s'amuse contre les corsaires. Il compte joindre les ennemis le lendemain et donner des nouvelles après demain à son ami ; il augure bien de l'événement. (C'est dans cette bataille qu'il fut tué par un boulet.) 26. DU GUESCLIN (Bertrand), illustre connétable de France, un des plus grands capitaines de son temps,</note>
+<sense>n. 1320, m. 1380. Pièce, sur vélin; Pontorson, 24 octobre 1370, 1 p. in-fol. oblong, cachet.</sense>
+<note>Précieux documenr, Traité d'alliance entre Du Guesclin et Olivier de Clisson. Ils jurent de se défendre mutuellement « contre tous ceulz qui pevent vivre et mourir exceptez le roy de France, ses frères, le vicomte de Rohen et nos autres seigneurs de qui nous tenons terres ». Très curieux détails</note>
+</sense>
+</entry>
+<pc>.</pc>
+<entry><num>27</num>
+
+<form type="lemma">
+<name>. DURUY (Victor</name>
+<pc>),</pc>
+<desc>célèbre historien, ministre de l'Instruction publique, membre de l'Académie française, n. 1811, m. 1894</desc>
+</form>
+<pc>.</pc>
+
+<sense>
+<sense>L. a. s. à M. Delbarre; Paris, 16 décembre 1882, 1 p. 1/2 in-12.</sense>
+<note>Intéressante lettre au sujet de la publication de ses oeuvres. Il dit qu'il recherche la vérité sans attaquer personne, cependant il espère rendre impossibles des livres comme ceux de Beulé et d'Ampère « qui faisaient, il y a vingt ans, la caricature et non l'histoire de l'Empire romain, par esprit d'opposition contre le second empire français »</note>
+</sense>
+</entry>
+<pc>.</pc>
+<entry><num>28</num>
+
+<form type="lemma">
+<name>. FAVRAS (Thomas de Mauy, marquis de</name>
+<pc>),</pc>
+<desc>le fameux auteur d'une conspiration contre-révolutionnaire, n. à Blois, 1744, pendu en place de Grêve, 1790</desc>
+</form>
+<pc>.</pc>
+
+<sense>
+<sense>L. a. s. à M. M... ; Prison de l'Abbaye, (2 janvier?), 1790</sense>
+</sense>
+</entry>
+<pc>.</pc>
+<entry><num>Rare</num>
+
+<pc>. (</pc>
+
+<sense>
+<sense>Coll. Gilbert.) Curieuse pièce. Il requiert le commissaire Du Lary pour formuler ses plaintes et diriger des poursuites contre ceux qui l'accusent de machinations atroces et injurieuses, 29. FLORIAN (Jean-Pierre Charis de), un de nos meilleurs fabulistes, membre de l'Académie française, n. 1755, m. 1794. L. a. s. à sa tante ; Florian, 30 janvier 1776,3 p. 3/4 in 4. papier à entourages bleus. Très légères laches.</sense>
+<note>Lettre intime des plus curieuses, écrite à l'âge de 21 ans. Florian y parle notamment de la société languedocienne, dont il fait un tableau peu flatteur. Il annonce sa prochaine arrivée à Semur, où demeuraient son oncle et sa tante</note>
+</sense>
+</entry>
+<pc>.</pc>
+<entry><num>30</num>
+
+<form type="lemma">
+<name>. FLOURENS (Gustave</name>
+<pc>),</pc>
+<desc>membre de la Commune de 1871, n. 1838, tué en 1871</desc>
+</form>
+<pc>.</pc>
+
+<sense>
+<sense>L. a. s. à un général; prison de Mazas, 13 décembre 1870, 1 p. in-8. Curieuse lettre où il réclame son jugement ou sa mise en liberté. Il demande qu'on lui rende son sabre et son revolver qui sont sa prepriété.</sense>
+</sense>
+</entry>
+<entry><num>31</num>
+
+<pc>.</pc>
+
+<sense>
+<sense>FOUQUIER-TINVILLE (Antoine-Quentin), le fameax accusateur public près du tribunal révolutionnaire, n. 1747, guillotiné en 1795. P. s.; 10 nivôse an II, 1 p. in-4; tête imprimée. Précieux documenr. C'est l'ordre d'exécution du célèbre général Armand-Louis de Gontaut, duc de Biron</sense>
+</sense>
+</entry>
+<pc>.</pc>
+<entry><num>32</num>
+
+<form type="lemma">
+<name>. FOY (Maximilien, comte</name>
+<pc>),</pc>
+<desc>célèbre général et orateur du parti libéral, n. 1775, m. 1825</desc>
+</form>
+<pc>.</pc>
+
+<sense>
+<sense>L. a. s.; Mérida, 9 juillet 1810, 2 p. in-4.</sense>
+<note>Très curieuse letire annonçant l'envoi des pièces nécessaires pour obtenir l'obtention de ses lettres patentes de baron de l'Empire. Il demande qu'on corrige l'orthographe de son nom et qu'on rétablisse la finale « qui a disparu. Il désire s'appeler le baron de Foix, et il fait l'énumération des armes qu'il désire porter sur son cachet</note>
+</sense>
+</entry>
+<pc>.</pc>
+<entry><num>33</num>
+
+<form type="lemma">
+<name>. FOYATIER (Denis</name>
+<pc>),</pc>
+<desc>habile sculpteur, auteur du Spartacus qui est dans le jardin des Tuileries, n. à Bussière (Loire</desc>
+<pc>),</pc>
+<desc>1793, m. 1863</desc>
+</form>
+<pc>.</pc>
+
+<sense>
+<sense>L. a. s.; Paris, 3 août 1837, 1 p. in-4.</sense>
+<note>Belle lettre où il sollicite des conseils pour l'achèvement de sa statue de Target destinée à l'Hôtel de Ville</note>
+</sense>
+</entry>
+<pc>.</pc>
+<entry><num>34</num>
+
+<form type="lemma">
+<name>. GOUNOD (Charles</name>
+<pc>),</pc>
+<desc>le grand compositeur de musique, n. 1818, m. 1893</desc>
+</form>
+<pc>.</pc>
+
+<sense>
+<sense>L. a. s. à Vitu; Paris, 30 novembre 1888, 1 p. 1/2 in-8. Jolie lettre où il le remercie de son chaleureux compte rendu de la première de Roméo</sense>
+</sense>
+</entry>
+<pc>.</pc>
+<entry><num>35</num>
+
+<pc>.</pc>
+
+<sense>
+<sense>GOUVION-SAINT-CYR (Laurent), illustre général républicain et maréchal de l'Empire, réorganisaleur de l'armée, n. à Toul, 1764, m. 1830. L. a. s. à Berthier; Marseille, 28 nivôse an VIII, 3/4 de p. infol., tête imprimée.</sense>
+<note>Il mande qu'ayant besoin de repos, il se rend à Nancy où il restera jusqu'au moment où la saison raménera la guerre active</note>
+</sense>
+</entry>
+<pc>.</pc>
+<entry><num>36</num>
+
+<form type="lemma">
+<name>. GOUVION-SAINT-CY R (Laurent</name>
+</form>
+<pc>).</pc>
+
+<sense>
+<sense>L. a. s. au maréchal Berthier; Martino, 3e jour complémentaire, an XII, 2 p. 1/2 in-fol., vignette.</sense>
+<note>Superbe lettre. Il lui donne l'emploi des 20,000 francs qui lui avaient été alloués pour ses dépenses secrètes. Il demande pour chef d'étatmajor le général Donzelot ou, à son défaut, le général Heudelet ou le général de Billy</note>
+</sense>
+</entry>
+<pc>.</pc>
+<entry><num>37</num>
+
+<form type="lemma">
+<name>. GRESSET (Jean-Baptiste-Louis</name>
+<pc>),</pc>
+<desc>célèbre poète et auteur dramatique, membre de l'Académie française, n. 1709, m. 1777</desc>
+</form>
+<pc>.</pc>
+
+<sense>
+<sense>L. a. s.; 15 juin (1762), 1 p. 1/2 in-8. Rare. (Coll. Dubrunfaut).</sense>
+<note>Superbe lettre où il le prie de lui mander ce qu'on dit de la condamnation de l'Emile. « Est-il vrai que Jeau-Jacques a un protecteur dans Mme de Pompadour et dans le roi Stanislas, et que jugeant de sa position comme d'un procès qu'on a perdu, il a pris sagement le parti de s'en reconsoler en s'acheminant vers la Suisse. Là il sera au moins à l'abri de l'orage et trouvera peut-être du repos dans une patrie qu'il n'aurait pas dû quitter...</note>
+</sense>
+</entry>
+<pc>»</pc>
+<entry><num>38</num>
+
+<pc>.</pc>
+
+<sense>
+<sense>GUISE (Louis III de Lorraine, cardinal de), fils du duc Henri Ier de Guise, archevêque de Reims, époux secret de Charlotte des Essarts, n. 1575, m. 1621. P. s. ; Paris, 23 mars 1615, 3/4 de p. in-fol. Curieux documenr. Reconnaissance de 3,600 livres pour des marchandises d'orfévrerie à lui vendues par feu Jean de la Haye, orfèvre du roi</sense>
+</sense>
+</entry>
+<pc>.</pc>
+<entry><num>39</num>
+
+<pc>.</pc>
+
+<sense>
+<sense>GUISE (Henri Ier de Lorraine, duc de), dit le Balafré, lieutenant-général du royaume, n. 1550, assassiné à Blois le 23 décembre 1588. L. s. à la Reine; Esclairon, 9 août 1563, 3/4 de p. in-fol.</sense>
+<note>Lettre signée à l'âge de treize ans. Il se réjouit de la prise du Havre, et se prépare, auprès de ses oncles, à bien servir le roi</note>
+</sense>
+</entry>
+<pc>.</pc>
+<entry><num>40</num>
+
+<form type="lemma">
+<name>. HUGO (Victor</name>
+<pc>),</pc>
+<desc>le grand poète, n. 1802, m. 1885</desc>
+</form>
+<pc>.</pc>
+
+<sense>
+<sense>L. a. s. à M. Senty; (Paris, 24 février 1830), 1 p. in-8.</sense>
+<note>Précieuse lettre écrite la veille de la première représentation d'Hernani. Il s'excuse du retard de sa correspondance; il lui dit qu'il faut s'en prendre à Hernani qui ne lui laisse pas le temps d'écrire deux lignes à ses amis. Il le remercie de ses bons souhaits pour la réussite de sa pièce. « J'en ai besoin pour compenser les amertumes qui me viennent de toute part.</note>
+</sense>
+</entry>
+<pc>»</pc>
+<entry><num>41</num>
+
+<form type="lemma">
+<name>. INGRES (Jean</name>
+<pc>),</pc>
+<desc>l'illustre peintre, n. 1780, m. 1867</desc>
+</form>
+<pc>.</pc>
+
+<sense>
+<sense>L. a. s. au comte de Rambuteau; Paris, 10 mars 1847, 2 p. in-fol.</sense>
+<note>Superbe lettre où il se plaint des difficultés qu'on lui crée pour l'exécution de ses peintures de l'église Saint-Vincent de Paul. Il déclare qu'il ne peut accepter des travaux avec les conditions qui lui sont imposées, et qu'il renonce à exécuter les ouvrages qui lui avaient été attribués</note>
+</sense>
+</entry>
+<pc>.</pc>
+<entry><num>42</num>
+
+<form type="lemma">
+<name>. KRUSENSTERN (Adam-Jean de</name>
+<pc>),</pc>
+<desc>le célèbre amiral et circumnavigateur russe, n. 1770, m. 1846</desc>
+</form>
+<pc>.</pc>
+
+<sense>
+<sense>L. a. s., en français, à Pougens; Londres, 13 avril 1815, 2 p. in-4, cachet.</sense>
+<note>Belle lettre où il exprime son regret de ne pouvoir se rendre à Paris par suite des nouvelles politiques (le débarquement de Napoléon à Fréjus)</note>
+</sense>
+</entry>
+<pc>.</pc>
+<entry><num>43</num>
+
+<form type="lemma">
+<name>. LABORDE (Jean-Benjamin de</name>
+<pc>),</pc>
+<desc>fermier général, favori de Louis XV, célèbre compositeur de musique, n. 1734, décapité en 1794</desc>
+</form>
+<pc>.-</pc>
+
+<sense>
+<sense>L. a. s. de sa femme (à Fouquier-Tinville), 4 p. in-4. Intéressante lettre où elle réclame la mise en liberté de son mari. -Cette pièce est signée ne varietur par Fouquier-Tinville, Legot, Massieu et Lecointre,</sense>
+</sense>
+</entry>
+<entry><num>44</num>
+
+<pc>.</pc>
+
+<sense>
+<sense>LAMARTINE (Alphonse de), l'illustre poète, n. 1790, m. 1869. Harmonie 16e, la perte de l'Anio, au marquis de Barol, manuscrit aut. sig. L. ; Florence, 10 décembre 1826, 5 p. 1/2 in-fol.</sense>
+<note>Précieux manuscrir d'une de ses Harmonies, qui commence ainsi : « J'avais révé jadis, au bruit de ses cascades, « Couché sur le gazon qu'Horace avait foulé, « A l'ombre des vieilles arcades « Où la sybille dort sous son temple écroulé.</note>
+</sense>
+</entry>
+<pc>»</pc>
+<entry><num>45</num>
+
+<pc>.</pc>
+
+<sense>
+<sense>LASALLE (Antoine-Charles-Louis, comte de), un des meilleurs généraux de cavalerie des guerres de l'Empire, n. à Metz, 1775, mort glorieusement à la bataille de Wagram, 1809. L. a. s. à Junot; quartier général de Neustadt, 31 juillet 1806, 2 p. in-fol. Rare.</sense>
+<note>Superbe lettre où il le félicite de sa nomination au gouvernement de Paris, et il lui demande, puisque la paix est faite, de lui accorder la faveur de servir sous ses ordres</note>
+</sense>
+</entry>
+<pc>.</pc>
+<entry><num>46</num>
+
+<form type="lemma">
+<name>. LAVOISIER (Antoine-Laurent</name>
+<pc>),</pc>
+<desc>l'illustre chimiste, n. 1743, guillotiné en 1794</desc>
+</form>
+<pc>.</pc>
+
+<sense>
+<sense>L. a. s. au citoyen Chaigneau, receveur du droit d'enregistre- ment; Paris (5 niyôse an II), 1 p. 1/2 in-4.</sense>
+<note>Curieuse lettre, où il lui explique qu'il ne peut faire droit à ses réclamations parce que la Convention, ayant substitué la Nation aux lieu et place de la ferme générale, a interdit à cette dernière toute opération de recettes ou de dépenses. Le décret de la Convention, qui met sous séquestre les meubles et immeubles des ci-devant fermiers généraux, est un nouvel obstacle pour satisfaire à sa demande ; il lui conseille de s'adresser directement à la Convention ou au directeur général de la liquidation.</note>
+</sense>
+</entry>
+<entry><num>47</num>
+
+<form type="lemma">
+<name>. LEON XII (Annibale della Genga</name>
+<pc>),</pc>
+<desc>pape (1823), protecteur des lettres, n. 1760, m. 1829</desc>
+</form>
+<pc>.</pc>
+
+<sense>
+<sense>L. a. s. à l'avocat Villeni; Spoleto, 22 juillet 1815, 3/4 de p. in-4. Belle lettre</sense>
+</sense>
+</entry>
+<pc>.</pc>
+<entry><num>48</num>
+
+<pc>.</pc>
+
+<sense>
+<sense>LESPINASSE (Julie-Jeanne-Éléonore de), femme célèbre par son esprit, amie de d'Alembert, n. à Lyon, 1732, m. 1776. 18 lettres aut. à De Vaines, 43 p. in-4 ou in-8.</sense>
+<note>Précieuse correspondance inédite, où elle parle souvent de d'Alembert, de Madame Geoffrin, de Malesherbes et de Turgot. Elle plaint de Vaines de sa sensibilité, elle lui dit que c'est un trésor pour ses ennemis. Elle l'exhorte à supporter courageusement l'adversité. Elle cite sa vie comme un exemple de résignation. Pendant les deux dernières années qu'elle a vécu avec la plus méchante créature (Madame. Du Deffand?) elle était venue à bout de déconcerter sa méchanceté en lui imposant toujours le sang-froid de l'indifférence. « Je la métois tellement au désespoir qu'elle n'y a pas pu tenir, mais j'étais parvenue à cette insensibilité par huit ans de martyr et par la perte absolue de ma santé. » Elle ne sait ce que Madame Geoffrin a fait à d'Alembert, mais ce dernier est triste et d'une humeur effroyable, elle ne s'en afflige pas, mais elle désire que ce ton brusque et colère ne dure pas davantage. Elle rapporte une curieuse conversation qu'elle a eue avec une femme d'esprit, qui ne pensait pas qu'on puisse faire des actions grandes et héroïques sans croire en Dieu; piquantes considérations</note>
+</sense>
+</entry>
+<pc>.</pc>
+<entry><num>49</num>
+
+<form type="lemma">
+<name>. LINNE (Charles de</name>
+<pc>),</pc>
+<desc>l'illustre naturaliste suédois, n. 1707, m. 1778</desc>
+</form>
+<pc>.</pc>
+
+<sense>
+<sense>L. a. s., en latin, à David van Royen; Upsal, 1er octobre 1763, 1 p. in-4, cachet bien conservé. Très jolie lettre, où il l'entretien de questions botaniques.</sense>
+	</sense>
+	</entry>
+			<entry><sense><sense>50. LOU1S XVI, roi de France, n. 1754, décapité en 1793. Apostille de trois lignes aut. sig., sur une lettre du ministre de La Luzerne, au gouverneur de Saint-Domingue; Versailles, 3 juillet 1789, 3/4 de p. in-fol. Jolie pièce, où il l'invite à continuer ses bons services, dans l'administration des finances de Saint-Domingue.</sense></sense>
+			</entry>
+			<entry><sense><sense>51. LOUIS XVIII, roi de France, n. 1755, m. 1824. L. a. s. au duc de Harcourt; Vérone, 27 août 1795, 1 p. in-8.</sense>
+<note>Précieuse lettre, où il le charge d'aller visiter les veuves des malheureuses victimes de Quiberon. « Dans un temps plus heureux, ma plus grande consolation sera de pouvoir adoucir l'amertume de leurs regrets, par tous les moyens qui s ront en mon pouvoir.</note>
+</sense>
+			</entry>
+<pc>»</pc>
+<entry><sense>
+<sense>52. MASSENA (André), duc de Rivoli, illustre général de la République, maréchal d'Empire, n. 1758, m. 1817. P. s.; décembre 1805, 2 p. 1/2 in-4. Document historique fort curieux. C'est la copie certifiée conforme</sense>
+<note>par Masséna de l'armistice conclu avec l'Empereur d'Autriche le 6 décembre 1805 après l'éclatante victoire d'Austerlitz</note>
+</sense>
+</entry>
+<pc>.</pc>
+<entry><num>53</num>
+
+<form type="lemma">
+<name>. MEYERBEER (Jacques</name>
+<pc>),</pc>
+<desc>l'illustre compositeur de musique, n. 1794, m. 1864</desc>
+</form>
+	<sense>Pièce autographe; (Paris, 1831),1 p. in-4.</sense>
+	<note>Curieux document. C'est la distribution définitive des rôles de Robert le Diable. On y trouve les noms de tous les artistes qui devaient jouer dans cet opéra, et, parmi eux, Adolphe Nourrit, Dabadie, Madame Damoreau-Cinti, Marie Taglioni, etc</note>
+</entry>
+<pc>.</pc>
+<entry><num>54</num>
+
+<form type="lemma">
+<name>. MONGE (Gaspard</name>
+<pc>),</pc>
+<desc>l'illustre géomètre, n. 1746, m. 1818</desc>
+</form>
+<pc>.</pc>
+
+<sense>
+<sense>L. a. s. aux membres du directoire du département de Paris; Paris, 22 frimaire an II, 1 p. in-fol.</sense>
+<note>Très curieuse pièce, où il proteste contre son inscription sur la liste des émigrés du département des Ardennes. Il rappelle qu'au mois d'avril il était ministre de la Marine, et que depuis cette époque il est notoire qu'il n'a pas quitté Paris. Il demande donc que le Directoire prenne un arrêté, constatant sa non-émigration, et prononce sa radiation « de dessus celte liste infâme »</note>
+</sense>
+</entry>
+<pc>.</pc>
+<entry><sense>
+<sense>55. MOREAU (Victor), illustre général républicain, n. 1763, blessé mortellement dans les rangs ennemis à la bataille de Dresde, 1813. 1° L. a. s. aux membres du Comité de Salut public; Cassel, 28 germinal an II, 1/2 p. in-fol., tête impr. Déchirée en tête. Il les remercie de l'avoir nommé général de division. 2° L. a. s. à un compatriote; 30 vendémiaire (an V), 3 p. 1/2 in-8.</sense>
+<note>Intéressante lettre où il lui rend compte de ses dernières opérations militaires et de l'état de dénuement où se trouve son armée</note>
+</sense>
+</entry>
+<pc>.</pc>
+<entry><num>56</num>
+
+<form type="lemma">
+<name>. MURAT (Joachim</name>
+<pc>),</pc>
+<desc>maréchal de l'Empire, roi de Naples, n. 1771, fusillé en 1815</desc>
+</form>
+<pc>.</pc>
+
+<sense>
+<sense>L. a. s. à Lannes; 18 juillet 1808, 2 p. in-8, enveloppe.</sense>
+<note>Très belle lettre d'envoi d'une lettre de l'Empereur. « Je suis sûr que tu seras charmé de l'avis que S. M. te fait donner de te dépécher de boire les eaux. » Prière de tenir cet avis secret</note>
+</sense>
+</entry>
+<pc>.</pc>
+<entry><sense>
+<sense>57. MURAT (Joachim). P. s., sur vélin, par NApoléon Ier, contresignée par Hugues Maret et Berthier; Paris, 24 nivôse an XII, 1 p. in-folio, vignette. Précieux documenr. Commission de Murat comme généial en chef gouverneur de Paris, commandant la première division militaire.</sense>
+</sense></entry>
+<entry>
+<sense><sense>58. NAPOLEON Ier, empereur des Français, n. 1769, m. 1821 L. s. avec la souscription autographe, à Kellermann; Brescia, 1er fructidor an IV, 1 p. in-fol., vignette de l'armée d'Italie.</sense>
+<note>Superbe lettre où il le prie de hâter l'envoi de nouvelles troupes, les maladies mettant tous les jours beaucoup de monde aux hôpitaux. Le moindre retard peut être dangereux. « Wurmser reçoit à chaque instant de nouveaux renforts.</note>
+</sense>
+</entry>
+<pc>»</pc>
+<entry><sense>
+<sense>59. NAPOLÉON Ie. L. s. Napol, à son frère Jérôme ; Marienbourg, 3 juin 1807, 1/2 p. in-4. Il lui annonce qu'il a appris avec un grand plaisir la reddition de Neiss; il le prie de lui envoyer le journal du siège et de lui faire connaître tous ceux qui s'y sont distingués.</sense>
+</sense></entry>
+	<entry>
+		<sense>60. NAPOLÉON I. L. s. Np., avec 3 mots aut., à Defermon; Paris, 6 avril 1815, 1 p. in-fol., à mi-marge.</sense>
+<note>Curieux documenr signé pendant les Cent-Jours. Il le charge de secourir les habitants de la Lorraine, de l'Alsace et de la Champagne sur les fonds de la Caisse de l'Extraordinaire. Il désigne comme les premières villes à secourir Nogent, Méry-sur-Seine et Arcis-sur-Aube, où se livrèrent les fameux combats de la Campagne de France.</note>
+	</entry>
+	<entry><sense>61. NAPOLEON II, duc de Reichstadt, le fils de Napoléon Ier,</sense>
+<sense>n. 1811, m. 1832. Devoir d'écriture aut. sig. en allemand, 1 p. in-4, oblong. Très rare.</sense></entry>
+	<entry>
+		<sense>62. NAPOLEON III, empereur des Français, n. 1808, m. 1873. L. a. s. à M. Gadeaux ; Londres, 18 juillet 1840, 1 p. in-8. Curieuse lettre, où il le remercie du don qu'il lui a fait de la première croix d'honneur portée par Napoléon Ier.</sense></entry>
+			<entry><sense><sense>63. NAPOLÉON III. L. a. s. à Ledru Rollin; fort de lam, 6 juin 1844, 1 p. in-8</sense>
+<note>Très curieuse lettre où il lui recommande le soin de ses intérêts. « Je serais heureux d'avoir comme représentant un homme dont les convictions politiques se rapprochent si intimement des miennes et de même qu'un succes obtenu par vos soins me serait plus agréable, de même un revers me serait moins pénible, car je ne l'imputerai certes, ni au manque de talent ni au manque de bonne volonte de l'avocat.</note>
+</sense>
+</entry>
+<pc>»</pc>
+<entry><sense>
+<sense>64. NASSAU-SIEGEN (Charles-Henri-Nicolas-Othon, prince de), célèbre général, fameux par ses aventures, n. 1745, m. 1809. L. a. s. à Catherine II; du poste des Suédois, 14 août 1789, 2 p. in-folio. Pièce historique.</sense>
+<note>Il lui annonce qu'il vient de remporter une grande victoire sur la flotte suédoise, après dix-neuf heures de combat. Les Russes ont pris le bâtiment amiral suédois et six autres vaisseaux</note>
+</sense>
+</entry>
+<pc>.</pc>
+<entry><sense>
+<sense>65. NEY (Michel), prince de la Moskowa, illustre maréchal de l'Empire, n. 1769, fusillé en 1815. L. s. au maréchal Souur. Les Coudreaux, 6 mars 1815, 2 p. 1/2 in-4.</sense>
+<note>Superbe lettre, où il l'informe que pour se conformer aux intentions du roi, il va se rendre à son commandement, à Besançon. Il le prie de lui faire délivrer une somme de 40,000 francs qui lui est due et dont il a besoin pour le voyagequ'il va entreprendre. (Onze jours plus tard, le maréchal Ney rejoignait Napoléon à Auxerre.</note>
+</sense>
+</entry>
+<pc>)</pc>
+<entry><num>66</num>
+
+<pc>.</pc>
+
+<sense>
+<sense>PACHE (Jean-Nicolas), ministre de la guerre et maire de Paris pendant la Révolution, n. 1746, m. 1823. L. s., comme maire de Paris, à Santerre; Paris, 12 avril 1793, 1 p. in-4.</sense>
+<note>L'accusateur public près le tribunal révolutionnaire l'ayant informé que la garde de ce tribunal est insuffisante pour assurer la tranquillité dans la salle attenante à celles des séances, il le charge d'envoyer un renfort de 50 à 60 hommes</note>
+</sense>
+</entry>
+<pc>.</pc>
+<entry><num>67</num>
+
+<form type="lemma">
+<name>. PAGANINI (Niccolo</name>
+<pc>),</pc>
+<desc>l'illustre violoniste italien, n. 1784, m. 1810</desc>
+</form>
+<pc>.</pc>
+
+<sense>
+<sense>L. a. s. à M. Brun; Marseille, 23 février 1837, 1 p. in-4.</sense>
+<note>Superbe lettre, où il le charge de remercier la Société philharmonique de Marseille de l'honneur qu'elle lui a fait</note>
+</sense>
+</entry>
+<pc>.</pc>
+<entry><num>68</num>
+
+<pc>.</pc>
+
+<sense>
+<sense>PANIN (Nitika-Ivanovich, comte de), célèbre homme d'Etat russe, premier ministre de Catherine II, n. 1718, m. 1783. L. s. avec la souscript. aut., à la maréchale de Lieven; Pétersbourg, 30 octobre 1773, 1 p. in-4, enveloppe et cachet. Belle lettre. Rare</sense>
+</sense>
+</entry>
+<pc>.</pc>
+<entry><num>69</num>
+
+<pc>.</pc>
+
+<sense>
+<sense>PERNE (François-Louis), savant musicien, n. à Paris, 1772, m. 1882. L. a. s. à Fétis; Chamouille, près Laon, 5 mars 1830, 2 p. in-4. Très intéressante, toute relative à ses recherches sur la musique chez les peuples anciens.</sense>
+	</sense>
+	</entry>
+			<entry><sense><sense>70. PRUD'HON (Pierre-Paul), un de nos plus grands peintres, n. à Cluny, 1758, m. 1823. L. a. s. à Frochot; Paris, 23 juin 1810, 1 p. in-4. Rare. Il le prie de hâter le paiement définitif des travaux de M. Lafond, qui a exécuté le transparent des Noces d'Hercule et d'Hébée. 71. RENÉE DE FRANCE, fille de Louis XII et de Anne de Brelagne, épouse d'Hercule d'Este, duc de Ferrare, princesse lettrée, prolectrice de Calvin, n. 1510, m. 1576. L. a. s. a Henr iI; (1557), 1 p. in-folio, cachet. Superfe letrre de félicitations sur la prise de Hesdin</sense>
+</sense>
+</entry>
+<pc>.</pc>
+<entry><sense>
+<sense>72. REYER (Ernest), célèbre compositeur de musique, membre de l'Institut. Manuscrit aut. sig. E. R., 6 p. in-4. Les feuillets ont été coupés pour l'impression et remontés. Curieuse pièce. C'est un feuilleton où il rend compte de l'oratorio Mors et Vita de Gounod</sense>
+</sense>
+</entry>
+<pc>.</pc>
+<entry><sense>
+<sense>73. REYNIER (Jean-Louis-Ebenezer, comte), célèbre général, un des héros de l'armée d'Egypte, fait prisonnier à Leipzig, n. 1771, m. 1814. L. a. s. à Nev; Santarem, 4 fév. 1811, 4 p. in-fol. Pièce historique sur les mouvements militaires à exécuter en Espagne contre Wellington. Très intéressants détails</sense>
+</sense>
+</entry>
+<pc>.</pc>
+<entry>
+<sense>74. ROBESPIERRE (Maximilien de), député de Paris à la Convention, chef du Comité de Salut public, n. à Arras, 1758, m. 1794. L. s., signée aussi par Carnot et Hérault de Séchelles, à Bouchotte; Paris, 26 août 1793, 1 p. 1/4 in-fol.</sense>
+	<note>Très curieuse lettre où ils lui envoient une dénonciation de la citoyenne Sainte Marie déclarant que la dernière colonne de l'année de Mayence a tenu des propos incendiaires. Ils l'invitent à prendre des renseignements sur la conduite de cette colonne et à la surveiller avec le plus grand soin. « Pénétrez-vous de toute l'importance de cet objet, si l'armée de Mayance est animée du vrai républicanisme, le flambeau de la guerre civille est éteint dans la Vendée, sy des malveillans ont réussy à l'égarer, la guerre de la Vendée est mille fois plus dangereuse. » La lettre de dénonciation est jointe et la minute autographe de la réponse de Bouchotte est en marge. Il recommande de terminer l'affaire de Westermann. (Westermann avait été suspendu le 10 juillet.)</note>
+</entry>
+	<entry>75. ROSSINI (Gioacchino), le grand compositeur de musique italien, n. 1792, m. 1868. L. a. s., en français, (au baron Haussmann); Paris, 18 octobre 1861, 1 p. 3/4 in-4. Curieuse lettre où il s'intitule pianiste de 4e classe. Il lui recommande un sculpteur, M. Chevalier.</entry>
+	<entry>
+		<sense>76. SAINT-AIGNAN (Paul-Hippolyte de Beauvillier, duc de), célèbre diplomate, membre de l'Académie française, n. à Paris, 1684, m. 1776. L. a. s. à M. de Solignac, 1 p. 1/2 in-4. Rare. (Coll. Gilbert.)</sense>
+<note>Superbe lettre de remerciements de son admission dans la Société des sciences et belles-lettres de Nancy</note>
+</entry>
+<pc>.</pc>
+<entry><sense>
+<sense>77. SAINT-LAMBERT (Jean-François de), célèbre poète, auteur des Saisons, ami de Mme d'Houdetot, n. 1716, m. 1803. 9 1. aut. à De Vaines, 23 p. in-4 ou in-8.</sense>
+<note>Intéressante correspondance inédite. Il parle de ses Mémoires qu'il est heureux de savoir entre les mains de De Vaines, il a en lui une extrême confiance, « car soit pendant mon reste de vie, soit après ma mert je suis bien sûr qu'elle sera justifiée. » Il s'étonne que le</note>
+</sense>
+</entry>
+<entry><sense>
+<note>1er consul (Bonaparte) ait bien reçu le général Menou. « Bte aime mieux imité le Sénat romain qu'Auguste, puisqu'il n'a pas dit : Varrus, rend-moi mes légions. » Il avoue que Bonaparte n'est pas un homme ordinaire, et quand il voudra le flatter il dira : « Lui écarté, tous les hommes étaient égaux ». Il remercie De Vaines d'une notice qu'il lui a consacrée; il y a remarqué cependant un éloge qu'il voudrait ne pas y trouver. « C'est de me mettre à côté de Locke, je n'ai de mérite que celui d'être le disciple très zélé de ce premier précepteur du genre humain. Si je sçais quelque chose sur l'esprit humain, je lui dois ce que je sçais »</note>
+</sense>
+</entry>
+<pc>.</pc>
+<entry><sense>
+<sense>78. SAMSON (Joseph-Isidore), le célèbre comédien, professeur de Rachel, n. 1793, m. 1871. L. a. s. à Augustine Brohan; 1er nov. 1848, 1 p. in-8.</sense>
+<note>Très belle lettre où il la remercie, au nom de la Comédie-Française, « de l'effort que vous voulez bien faire et de votre dévouement à l'intérêt commun.</note>
+</sense>
+</entry>
+<pc>»</pc>
+<entry><sense>
+<sense>79. SANTERRE (Antoine-Joseph), le célèbre commandant en chef de la garde nationale parisienne, n. 1752, m. 1809. P. s.; Paris, 13 octobre 1792, 1 p. in-8, tête imprimée et curieux cachet.</sense>
+<note>Il ordonne au sieur Brion, brigadier-fourier de la 29e division, de se transporter à Reims pour y saisir l'état détaillé de la division et de pourvoir à sa solde</note>
+</sense>
+</entry>
+<pc>.</pc>
+<entry><num>80</num>
+
+<form type="lemma">
+<name>. SARDOU (Victorien</name>
+<pc>),</pc>
+<desc>le célèbre auteur dramatique, membre de l'Académie française</desc>
+</form>
+<pc>.</pc>
+
+<sense>
+<sense>L. a. s. (à Vitu); Paris, 30 novembre 1871, 1 p. 1/4 in-8. Fâtiguée dans les plis.</sense>
+<note>Très curieuse lettre où il explique sa présence aux Tuileries le 4 septembre 1870. Il dit qu'il allait supplier le général Mellinet de retirer le drapeau dont la vue exaspérait la foule et de remplacer la garde impériale par la garde nationale qui seule pouvait épargner le pillage de 48; il y allait enfin pour sauver la peau des laquais qui l'insultent aujourd'hui. « Voilà ce que j'ai fait ce jour-là, Monsieur, et je m'en vante !</note>
+</sense>
+</entry>
+<pc>»</pc>
+<entry><num>81</num>
+
+<form type="lemma">
+<name>. SCRIBE (Eugène</name>
+<pc>),</pc>
+<desc>le célèbre auteur dramatique, membre de l'Académie française, n. 1791, m. 1861</desc>
+</form>
+<pc>.</pc>
+
+<sense>
+<sense>L. a. s. (au baron Haussmann), 3 p. in-8. Intéressante lettre où il parle de sa candidature à l'Institut</sense>
+</sense>
+</entry>
+<pc>.</pc>
+<entry><num>82</num>
+
+<form type="lemma">
+<name>. SURIAN (Jean-Baptiste</name>
+<pc>),</pc>
+<desc>évêque de Vence, célèbre prédicateur, membre de l'Académie française, n. 1670, m. 1754</desc>
+</form>
+<pc>.</pc>
+
+<sense>
+<sense>L. a. s. au doyen de la collégiale à Saint-Paul; 19 septembre 2 p. 1/2 in-4. Belle lettre</sense>
+</sense>
+</entry>
+<pc>.</pc>
+<entry><num>83</num>
+
+<form type="lemma">
+<name>. VERNET (Horace</name>
+<pc>),</pc>
+<desc>le célèbre peintre, n. 1789, m. 1863</desc>
+</form>
+<pc>.</pc>
+
+<sense>
+<sense>L. a. s.; Rome, 14 mars 1833, 3 p. 1/4 in-4.</sense>
+<note>Très curieuse lettre écrite comme directeur de l'Académie de France à Rome. Il demande la réforme des règlements dans un sens plus libéral. Il expose que la sévérité de ces règlements est nuisible à l'entier développement des facultés d'un homme fait, et il en résulte que c'est sous les directorats qui ont laissé le plus à désirer sous le rapport de l'exécution des règlements que l'on a vu le plus de pensionnaires sortir de l'engourdissement qu'on leur reproche</note>
+</sense>
+</entry>
+<pc>.</pc>
+<entry><num>84</num>
+
+<form type="lemma">
+<name>. VICTOR (Claude Perrin, dit</name>
+<pc>),</pc>
+<desc>duc de Bellune, maréchal de l'Empire, n. 1764, m. 1841</desc>
+</form>
+<pc>.</pc>
+
+<sense>
+<sense>L. a. s. à M. Désaugiers; Berlin, 5 septembre 1807, 1 p. 1/4 in-4.</sense>
+<note>Très curieuse lettre relative aux moyens de défense que devraient employer les Danois pour combattre les Anglais. Il souhaiterait de voir un jeune général à la tête de ce vaillant peuple, pour jeter les Anglais à la mer. « Je m'échauffe toutes les fois que je pense aux Anglais et surtout à la conduite infâme qu'ils tiennent dans ce moment.</note>
+</sense>
+</entry>
+<pc>»</pc>
+<entry><sense>
+<sense>85. VIOLLET-LEDUC (Eugène-Emmanuel), le célèbre architecte, n. 1814, m. 1879.</sense>
+	<note>6 dessins, dont 2 à l’encre et les autres au crayon, représentant des costumes et une vue du château de Pierrefonds.</note>
+</sense>
+</entry>
+<pc>.</pc>
+<entry><sense>
+<sense>86. WATT (James), illustre ingénieur et inventeur anglais, qui perfectionna les machines à vapeur, n. 1736, m. 1819. L. a s., en français; Birmingham, 15 janvier 1779, 1 p. 1/2 in-4. Superbe lettre relative à l'installation d'une machine élévatoire. Il parle de son associé Boulton qui se rend à Londres</sense>
+</sense>
+</entry>
+<pc>.</pc>
+<entry><num>87</num>
+
+<form type="lemma">
+<name>. ZOLA (Emile</name>
+<pc>),</pc>
+<desc>le célèbre romancier</desc>
+</form>
+<pc>.</pc>
+
+<sense>
+<sense>L. a. s. à un confrère; Paris, 31 août 1867, 1 p. 1/2 in 8. Intéressante lettre relative à la publication de son livre : Un mariage d'amour.</sense>
+	</sense>
+	</entry>
+	<entry>DOCUMENTS HISTORIQUES</entry>
+	<entry><sense>88. CAMPAGNE DE FRANCE DE 1814. L. a. s. du marquis de Forbin à M. Alphonse de Beauchamp ; Paris, 13 janvier 1815, 2 p. 1/2 in-4.</sense>
+<note>Curieuse lettre où il lui fait le récit de ce qu'il a vu à Paris pendant les journées des 30 et 31 mars 1814. Il raconte les efforts que les agents de Napoléon Ier faisaient pour soulever le peuple afin de retarder l'entrée des alliés dans la ville et permettre à l'Empereur d'arriver pour secourir Paris</note>
+</entry>
+<pc>.</pc>
+<entry><num>89</num>
+
+<form type="lemma">
+<name>. FINISTERE (département du</name>
+</form>
+<pc>).</pc>
+
+<sense>
+<sense>L. s. du duc de Choiseul, avec 8 lignes autographes, à M. de Capellis; Compiègne, 7 août 1764, 2 p. 1/4 in-fol. Très intéressante lettre toute relative à son projet d'agrandissement du port de Brest</sense>
+</sense>
+</entry>
+<pc>.</pc>
+<entry><num>90</num>
+
+<form type="lemma">
+<name>. NORD (département du</name>
+</form>
+<pc>).</pc>
+
+<sense>
+<sense>2 l. s. du conventionnel Gossuin au préfet du département du Nord; Paris, 7 thermidor an X et 22 vendémiaire an XI, 2 p. in-4. Curieuses épitres relatives à l'érection à Lille, d'une statue du premier consul.</sense>
+</sense>
+</entry>
+	<entry>91. RÉVOLUTION FRANCAISE. P. a. s. par Coulombeau (secrétaire de la Commune de Paris depuis la veille), signée aussi par Santerre, commandant provisoire de la garde nationale; Paris, 11 août 1792, 3/4 de p. in-4, vignette et curieux en-tête. Précieuse pièce datée du lendemain de la prise des Tuileries. Ils ordonnent à MM. Jeanson et Meslé, commissaires, de se transporter aux Tuileries pour faire ouvrir les portes des souterrains et de faire mettre ensuite les scellés partout.</entry>
+	<entry>92. RÉVOLUTION DE 1848. P. a. s. par Garnier-Pagès, signée aussi par Marie, F Arago, Lamartine, Dupont de l'Eure, Louis Blanc, Marrast, Ledru-Rollin, Crémieux et Albert; Paris, 29 février 1848, 3/4 de p. in-fol., tête imprimée et cachet. Nomination du citoyen Pagnerre comme secrétaire général du gouvernement provisoire.</entry>
+	<entry><sense>93. VENDÉE. L. a. s. au citoyen Félix, membre de la Commune de Paris, attaché à la commission militaire qui suivait l'armée avec la guillotine, aux républicains, ses collègues du conseil général de la Commune de Paris; 13, 14 et 16 frimaire an II (3, 4 et 6 décembre 1793), 4 p. pl. in-fol. tête impr. et vig.
+<note>Précieux docuuent historique où il rend compte jour par jour de ce qui se passait d'intéressant dans la guerre contre les Vendéens. Il raconte l'attaque infructueuse du général Danican sur Mayenne le 6 frimaire. Devant dos forces supérieures, ce général a exécuté une retraite en bon ordre sur Château-Gontier. La ville de Laval a été évacuée le 7 frimaire après avoir été dépourvue de vivres. Danican se retire sur Angers pour se joindre à l'armée de cette ville. Les habitants et les soldats sont décidés à s'ensevelir sous les ruines de la ville plutôt que de battre en retraite. Les 7, 8 et 9 frimaire, on a exécuté quelques conspirateurs « pour ne pas laisser rouiller le razoir national ». Récit de l'attaque d'Angers par les Vendéens qui s'est produite au moment où l'on allait fusiller 129 brigands. La commission militaire se retire sur Doué, emmenant les prisonniers avec elle. En chemin il a entendu la canonnade et il a aperçu la fumée de l'incendie qui avait été allumé pour empêcher les Vendéens d'entrer dans Angers. (Les Vendéens furent repoussés dans leur attaque sur Angers, le 14 frimaire an II, 5 décembre 1793). Il lui indique les moyens de défense des Ponts-de-Cé, et croit que les brigands y trouveront leur tombeau. Curieuse apologie de la guillotine.</note>
+</sense>
+</entry>
+<entry><num>94</num>
+
+<pc>.</pc>
+
+<sense>
+<sense>VENDÉE. P. s. par Le Roux, juge de paix de Clisson, contresig. par les officiers municipaux de cette ville; Nantes, 15 sept. 1793, 2 p. in- fol.</sense>
+<note>Etal des meubles et effets pillés par les révoltés dans sa maison de Beauséjour, dans la commune et au bas du bourg de Verton</note>
+</sense>
+</entry>
+<pc>.</pc>
+<entry><num>95</num>
+
+<form type="lemma">
+<name>. VIENNE (département de la</name>
+<pc>)</pc>
+</form>
+</entry>
+<pc>.</pc>
+<entry><sense>
+<sense>Charte en latin, sur vélin, du roi Philippe le Hardi; Paris, septembre 1277, 1 p. in-4 oblong. Intéressant document. Le roi accorde aux bacheliers de l'église de Poitiers de posséder paisiblement les héritages dont ils avaient fait l'acquisition dans les fiefs et arrière-fiefs du roi et dont ils avaient payé la finance au sénéchal de Poitou et de Saintonge.</sense>
+</sense>
+</entry>
+	<entry>96. ACADéMIE FRANÇAISE. 26 pièces. Berryer Scribe, Guizot, Sardou, Mézières, Maxime Du Camp, cardinal Dubois, Vitet, Léon Say, etc.</entry>
+	<entry>97. ARTISTES DRAMATIQUES. 50 pièces. Dumaine, Lionnet, Marie Delaporte, Samson, Truffier, F.Febvre, E. Doche, etc.</entry>
+	<entry>98. CARTES DE VISITE. 15 pièces. Gounod, Detaille, Daudet, général Mellinet, Madame Desclauzas, Renée du Minil, Anaïs Fargueil, Sardou, Zola, etc. Toutes ces pièces portent quelques lignes aut. sig.</entry>
+	<entry>99. CARTES DE VISITE. 45 pièces. Rochefort, général Renault,général Yusuf, Berte Fayolle, Eiffel, Cuvillier-Fleury, Delaunay, Larroumet, etc. La plupart de ces cartes sont revêtues de quelques mots aut.</entry>
+	<entry>100. COMPOSITEURS DE MUSIQUE. 29 pièces. Massenet, Membrée, Planquette, Delibes, Poise, Niedermeyer, Reyer, Meyerbeer, Delibes, Pessard, etc.</entry>
+	<entry>101. DIVERS. 85 pièces. Egger, général Boulanger, Magne, Bruix, Lacépède, maréchal de Ségur, Bourgoin, Montholon, duc de Penthièvre, etc.</entry>
+	<entry>102. DIVERS. 150 pièces. Intéressante réunion de lettres d'artistes et de littérateurs adressées au célèbre critique d'art, Philippe Burty.</entry>
+	<entry>103. DIVERS. 75 pièces. Zacharie Astruc, H. Babou, X. Eyma, Lacretelle, Vitu, L. Stapleaux, Paul Lacroix, E. Daudet, etc. -Toutes ces lettres sont adressées à Poulet-Malassis.</entry>
+	<entry>104. DIVERS. 23 pièces. Berthier, De Trousseau, Got, Barthelemy Saint-Hilaire, Sarline, Gassendi (le général), etc.</entry>
+	<entry>105, HOMMES DE GUERRE. 18 pièces. Augereau, Clarke, Victor, Ney, Mortier Suchet, Guilleminot, Rapp, Macdonald, etc.</entry>
+	<entry>106. HOMMES POLITIQUES. 26 pièces. Chamillart, d'Aguesseau, Corbière, Clermont-Tonnerre, Vergennes, Dupin, Champagny, etc.</entry>
+	<entry>107. LITTÉRATEURS. 90 pièces. Paul de Saint-Victor, E. Gonzalès, Paul Foucher Champfleury, Béranger, Madame Adam, Eugène Chavette, Nadar, de Tinseau, etc.</entry>
+	<entry>108. MÉDECINS. 150 pièces environ. Importante réunion de pièces émanant de médecins et chirurgiens du XVIIe au XIXe siècle.</entry>
+	<entry>109. PEINTRES. 11 pièces. A. Hesse, Vibert, E. Fromentin, Detaille, Roll, etc.</entry>
+	<entry>110. Sous ce numéro on vendra un certain nombre d'autographes non catalogués.</entry>
+<pc>.</pc>
+		</body>
+	</text>
+</TEI>
