@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<bibliographie>
+    <item numéro="1" format="livre">
+        <auteur genre="femme">
+            <prénom>Lou</prénom><nom>Brunard</nom>
+        </auteur>
+        <InformationsLivre>
+            <titre langue="français">Qu'est-ce que la Text Encoding Initiative ?</titre>
+            <lieuDEdition origine="France">Marseille</lieuDEdition>
+            <Edition>OpenEdition Press</Edition>
+            <Collection>Collection : Encyclopédie numérique</Collection>
+            <traducteur genre="Féminin"> <prénom>Marjorie</prénom><nom>Burghart</nom></traducteur>
+            <année>2015</année>
+            <URL>http://books.openedition.org/oep/1237?lang=fr</URL>
+            <Résumé langue="français">Les Guidelines de la Text Encoding Initiative (TEI) sont depuis longtemps considérées comme le standard de fait pour la préparation de ressources textuelles numériques dans la communauté académique. Elles offrent au débutant un éventail de possibilités qui peut paraître intimidant, mais qui reflète l’impressionnante étendue des applications possibles pour l’encodage de texte, depuis les éditions critiques traditionnelles jusqu’aux corpus linguistiques, aux lexiques historiques, aux archives numériques et au-delà. Utilisant de nombreux exemples de textes encodés en TEI issus de domaines variés, ce livre simple et direct est destiné à aider le débutant à faire ses propres choix parmi les multiples options offertes par la TEI. Il explique la technologie XML utilisée par la TEI d’une manière accessible au lecteur dépourvu de formation technique, et offre une visite guidée des dédales de l’univers de la TEI, et de la façon dont elle peut être personnalisée pour répondre aux besoins d’un projet particulier.</Résumé>
+        </InformationsLivre>
+    </item>
+    
+    <item numero="2" format="article">
+        <auteur genre="femme">
+            <prénom>Lou</prénom><nom>Brunard</nom>
+        </auteur>
+        <titre langue="anglais">The Evolution of the Text Encoding Initiative: From Research Project to Research Infrastructure</titre>
+        <revue origine="angleterre">Journal of the Text Encoding Initiative,</revue><date>Issue 5, June 2013</date>
+        <URL>http://journals.openedition.org/jtei/811</URL>
+        <Résumé langue="anglais">It is twenty-five years since the Text Encoding Initiative was first launched as a research project following an international conference funded by the US National Endowment for the Humanities. This article describes some key stages in its subsequent evolution from research project into research infrastructure. The TEI's changing nature, we suggest, is partly a consequence of its close and highly responsive relation with an active user community, which may also explain both its longevity and its effectiveness as a part of the digital humanities research infrastructure.</Résumé>
+        <motClé>Keywords :text encoding, humanities computing, history, infrastructures</motClé>
+    </item>
+    
+    <item numéro="3" format="article">
+        <auteur genre="homme">
+            <prénom>Jean-Baptiste</prénom><nom>Camps</nom>    
+        </auteur>
+        <titre langue="français">Où va la philologie numérique ?</titre>
+        <revue origine="france">Fabula LHT 20</revue><date>janvier 2018</date>
+        <URL>http://www.fabula.org/lht/20/camps.html</URL>
+        <URL>https://halshs.archives-ouvertes.fr/halshs-01674953/</URL>
+        <résumé langue="français">Si, pour les premiers philologues à l’utiliser dès les années 1950, l’ordinateur était avant tout un outil auquel déléguer des tâches répétitives ou très vastes d’un point de vue quantitatif, je défends dans cet article l’idée que les méthodes computationnelles, ou, pour mieux dire, la philologie tournée vers les données peut être un vecteur puissant de transformation pour nos disciplines, au sein du cadre fourni par le quatrième paradigme, émergent, d’une méthode scientifique unifiée. En effet, si la publication électronique d’éditions de texte a souvent, jusqu’à présent, retenu l’attention des chercheurs en sciences du texte, le cœur des transformations potentielles réside plutôt dans une approche qui mette les données au centre : en amont, cela signifie tirer profit des méthodes computationnelles pour produire des données dans des quantités ou granularités jusque là inenvisageables ; en aval, cette approche est à même de renverser la manière même dont nous formulons nos énoncés ou construisons la connaissance, en passant d’une approche fondée sur des hypothèses préexistantes à un processus dans lequel on fasse émerger une formalisation à partir des données elles-mêmes, nous émancipant ainsi un peu plus de nos postulats les plus ancrés ou des présupposés du sens commun. Tandis que nous enregistrons de nouveaux ensembles de faits sélectionnés dans nos sources, de nouvelles enquêtes ou analyses deviennent possible, pour autant que nous ne restions pas prisonniers des interfaces, limitées par nature et dont la pérennité est douteuse. Si « les données sont le résultat important sur le long terme », elles devraient être partagées sans restrictions, tant pour permettre le progrès cumulatif des connaissances, que pour se conformer aux exigences de la recherche scientifique : reproductibilité, réfutabilité. Pour que ce type de science ouverte soit réalisée, nous devrions être moins indulgents envers les revendications abusives de droits patrimoniaux ou de propriété des textes anciens.</résumé>
+        <motClé>Mots-clés : philologie, édition électronique, humanités </motClé>
+    </item>
+</bibliographie>
