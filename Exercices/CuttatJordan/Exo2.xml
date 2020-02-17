@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+-<TEI xmlns="http://www.tei-c.org/ns/1.0">       
+    -<teiHeader>                
+        -<fileDesc>                        
+            -<titleStmt>                
+                <title>Exercie2 Encodage en XML - TEI de l'Usufruit et répartition des biens d'un conjoint décédé</title>               
+            </titleStmt>                        
+            -<publicationStmt>                
+                <authority>Jordan Cuttat</authority>
+                <address>Université de Neuchâtel. Espace Tilo Frey, 2000 <placeName>Neuchâtel</placeName>.<country>Suisse</country></address>
+                <date>14.11.2019</date>
+            </publicationStmt>                        
+            -<sourceDesc>                                
+                -<msDesc>                                       
+                    -<msIdentifier>                        
+                        <country>Suisse</country>                        
+                        <settlement><placeName>Neuchâtel</placeName></settlement>                        
+                        <institution>BPUN</institution>                        
+                        <idno>AVN B 101.14.001, fol. 345r–347r</idno>                        
+                    </msIdentifier>                    
+                </msDesc>                                
+                -<bibl>
+                    <textLang mainLang="fr">Français</textLang>
+                    <title>Usufruit et répartition des biens d’un conjoint décédé</title>                    
+                    <date>04.28.1529</date>                    
+                    <author>Pierre Chambrier</author>                    
+                    <country>Switzerland</country>                                                                                                
+                </bibl>                
+            </sourceDesc>            
+        </fileDesc>        
+    </teiHeader>        
+    -<text>                
+        -<front>                                                    
+                <div type="résumé"><p>Long point de coutume rédigé à l’attention des seigneurs des douze cantons desligues. 
+                    Celui-ci précise les règles de répartition des biens d’un conjoint décédé etnotamment qu’après le décès 
+                    d’un individu marié, son conjoint survivant lui succèdeet a l’usage de ses biens durant sa vie. 
+                    Il peut cependant être déchu de cet usufruits’il n’entretient et n’exploite pas ses biens fonciers 
+                    : maisons découvertes, vignes,champs et prés non exploités. 
+                    Les biens immobiliers ne peuvent pas être aliénés. Lesurvivant jouit de la moitié des acquêts. 
+                    Une veuve peut être déchue de son usufruitsi elle commet des actes de « paillardise ». 
+                    La moitié des meubles appartiennent ausurvivant et l’autre moitié est en usufruit. La moitié du bétail va auxsurvivants.</p></div>                                       
+        </front>
+        <body>
+        
+        <p>Declaration de la coustume
+        de <placeName>Neufchastel</placeName> touchant l’us que le
+        survivant de deux conjoincts en mariage
+        doibt avoir sur les biens du deffunct et
+        comment il en est mesusé.</p>
+        
+        
+        <p>Je, <persName><forname>Pierre</forname> <surname>Chambrier</surname></persName>, <roleName>mayre</roleName> de <placeName><settlement>Neufchastel</settlement></placeName>,
+        pour mes tres redoubtés magnifiques & souverains
+        seigneurs messieurs des douze quanthons des ligues
+        fais sçavoir à tous que pardevant moy et les bourgeois
+        et conseillers dudict <placeName>Neufchastel</placeName> s’est comparu honneste
+        homme <persName><forename>Guillaume</forename> <surname>Rousin</surname></persName> <roleName>bourgeois</roleName> de <settlement><placeName>Berne</placeName></settlement>, comme
+        advoyer de noble damoiselle, <persName>dame <forename>Margueritte</forename> <surname>de
+        Bellevaux</surname></persName> relicte de feu noble <roleName>escuyer</roleName> <persName><forename>Hanß</forename> <forename>Rudolff</forename>
+        <surname>Hetzel</surname></persName> que Dieu absolve, lequel de la part de nos
+        tres redoubtez & honnorez seigneurs messieurs de
+        <placeName>Berne</placeName> nous a presenté lettre de recommandation
+        amyables en faveur de ladicte damoiselle de Ballevaux
+        sadicte advoyere et au nom d’elle, a exposé instamment en figure
+        de justice requerant luy voulloir declarer la coustume de
+        <placeName>Neufchastel</placeName> au faict des mariages qui se font aux us &
+        coustumes d’icelles, et mesmement comment le survivant apres
+        le deceds dudict deffunct entre mary & femme usent les biens
+        l’un de l’autre, avec des accroissances que par ensemble ils font
+        alleguant ledict exposant, luy avoir esté audict lieu de <placeName>Berne</placeName>
+        faire apparoistre de ladicte coustume attouchant mariage comme
+        de ce nous a suffisamment informé par bonne dheues & susfisantes
+        lettres.</p>
+        
+        
+        <p>Or est que nous pour l’honneur amour et benevolence de nosdicts
+        redoubtés et honnorés seigneurs de <placeName>Berne</placeName>, en contemplation de leurs
+        amoureuses escriptiantsa, considerant aussi la requeste dudict
+        exposant au nom que dessus estre concordant a raison
+        30b1[fol. 345v]
+        mesmement que tout bien, paix et amour s’en pourra suivre
+        apres avoir heu conseil et bon advis, avons bien voullu declarer
+        ladicte coustume et us au faict des mariages comme du passé l’un
+        en a usé et cuse l’on a present qu’est en telle forme</p>.
+        
+        
+        <p>Quand traicté de mariage est faict entre mary & femme
+        selon les bons us et coustumes de ladicte Ville de <placeName>Neufchastel</placeName>
+        apres avoir demeuré an et jour qu’est d–un an et–d six sepmaines par ensemble
+        et apres l’un d’eulx meurt, le survivant a succeddé & succede
+        à present es biens du trepassé ayant son us sur les biens du
+        deffunct sa vie durant.</p>
+        
+        
+        <p>Et le survivant tient l’us du trespassé, et il laisse la maison
+        descouverte à raison de quoy elle se doibge gaster et pourrir
+        sera mesusé de ladicte piece.</p>
+        
+        
+        <p>Et quand es vignes si elle les laisse sans labourer aux saisons
+        une ou plusieurs sera à dict de vignolan, et si faute y a, sera
+        mesusée de la piece de vigne qui se trouvera y avoir fauté.</p>
+        
+        
+        <p>Item quant es champs si elle ne les laboure à us de laboureur
+        aux saisons, sera mesusé de la pièce que ainsi se trouvera.</p>
+        
+        
+       <p> Item quant es prés les entretiendra à nature de prés à dict de
+        gens de bien, sans fraud ny aguet, et si elle ne faict le contenu
+        la piece qui se trouvera y avoir faute d’icelle sera mesusée.</p>
+        
+        
+        <p>Celuy ou celle tenant ledict e usement ne peut vendre engager
+        ny falienerg des biens dudict deffunct, sinon à necessité par
+        cognoissance et adjudication de droict touttesfois avant que
+        ces choses se facent faut que premier il ait despendu son bien
+        patrimonial honnestement selon son estat le tout sans fraud
+        ny aguet.
+        [fol. 346r]</p>
+        
+        
+        <p>En tant que touche des fruicts et rosées croissans sur lesdicts
+        biens elle ne pourra faire son bon plaisir et en user comme
+        dit est, et si icelle estoyent despendus par l’usery oultre forme
+        de raison alors ne pourra vendre ny engager des biens de
+        sondict us.</p>
+        
+        
+       <p>Des acquests faicts au vivant du mary, et de la femme iceux
+        se prennent par moitié toutesfois le survivant en use comme
+        dit est, à reserver que la femme se mesface d’honneur.</p>
+        
+        
+        <p>Entant que touche que s’elle se mesfaisoit de son honneur
+        par paillardise ou autrement, fust elle en estat de viduyté ou
+        remariée, elle sera mesusée de tout son us.</p>
+        
+        
+        <p>Le survivant a usé et encores de present use les biens meubles
+        delaissez par le deffunct que seullement seront acquis par
+        ensemble et iceux meubles se inventoriseront.</p>
+        
+        
+        <p>Les meubles se doibvent inventoriser, desquels la moitié est
+        au survivant ; et l’autre moitié les usera sa vie durant
+        sans les vendre ny engager sinon en necessité par cognoissance
+        de justice. Et si elle faict le contraire a donc elle est
+        mesusé d’icelle moitié : ce neantmoins n’entendons que lettres
+        voyageres, bestail à commande et autres biens dressez en
+        lettres authentiques soyent meubles.</p>
+        
+        
+       <p> Le survivant du passé s’est remarié & de present faict, et a
+        jouy et encore au present jouyt par us les fruicts de tous les
+        biens du deffunct touttesfois sans charger iceux dicts biens le
+        tout sans fraud, aguet ny barrat.</p>
+        
+        
+        <p>Entant que touche le bestail que y est a present l’on doibt [fol. 346v]
+        regarder le nombre et la valluë d’icelluy, et de la moitié
+        dudict bestail, apres le trespas de ladicte userry reviendra
+        aux heritiers et biens tenants dudict deffunct.</p>
+        
+        
+        <p>Entant qui touche des maix & possessions y estans,
+        icelle les pourra acceuser, admodier, mettre à moiteresse bien
+        & dheuement, redondant et venant à son proffict sa vie durant
+        et qu’iceux dicts maix soyent maintenus et entretenus comme
+        dessus est dit, ou autrement si faute il se trouvoit sur un maix
+        ou plusieurs le maix estant trouvé dheuement elle en seroit
+        tousjours mesusée.</p>
+        
+        
+        <p>Item de fiancer l’us il ne fut jamais faict ny encores de
+        present ne se faict.</p>
+        
+        
+        <p>Laquelle declaration nous les cy apres nommés avons
+        faicte au plus pres que sommes records, d’en avoir usé du
+        passé, avec comme l’on en use sans difficulté.</p>
+        
+        
+        <p>En vertu d’icelle dicte declaration faicte ledict <persName><forename>Pierre</forename>
+        <surname>Chambrier</surname></persName>, <roleName>mayre</roleName> que dessus ay demandé es bourgeois &
+        conseillers dudict <placeName>Neufchastel</placeName>, le droict qui sur ce apres avoir
+        heu conseil, cogneurent accordamment que l’on en debvoit donner
+        lettres judicialles & testimonialles audict <persName><forename>Guillaume</forename> <surname>Roussin</surname></persName>
+        advoyer dessus dict pour s’en ayder à sa necessité & besoin par
+        vertu et aucthorité d’icelle dicte adjudication faicte, ay ordonné
+        au secretaire de la justice icelle rediger par escript pour
+        s’en ayder quant besoin luy sera par la tradition d’un baston
+        que tenois en mes mains. Et nous <persName><forename>Pierre</forename> <surname>Happ</surname></persName> alias
+        Heuchemand, <persName><forename>Blaise</forename> <surname>Horry</surname></persName> clerc , <persName><forename>Guillame</forename> <surname>Merveilleux</surname></persName>, <persName><forename>Pierre</forename>
+        <surname>Fabvre</surname></persName>, <persName><forename>Pierre</forename> <surname>Barillier</surname></persName>, <persName><forename>Pierre</forename> <surname>Steyner</surname></persName>, <persName><forename>Loys</forename> <surname>Coinchely</surname></persName> [fol. 347r]
+        <persName><forename>André</forename> <surname>Maselier</surname></persName>, <persName><forename>Pierre</forename> <surname>Hardy</surname></persName>, <persName><forename>Jehan</forename> <surname>Eschler</surname></persName>, <persName><forename>Jehan</forename>
+        <surname>Chevallier</surname></persName>, <persName><forename>Guillame</forename> <surname>Soussenet</surname></persName>, <persName><forename>Jehan</forename> <surname>Coquillon</surname></persName>, <persName><forename>Estienne</forename>
+        <surname>Grand</surname></persName>, <persName><forename>Jehan</forename> <surname>Bourrier</surname></persName>, <persName><forename>Jehan</forename> <surname>Rossellet</surname></persName>, <persName><forename>Guillame</forename> <surname>de Cornaux</surname></persName>,
+        <persName><forename>Jehan</forename> <surname>Jaquement</surname></persName>, <persName><forename>Pierre</forename> <surname>Botoillier</surname></persName> et <persName><forename>Guillame</forename> <surname>Tribollet</surname></persName>
+        tous bourgeois & conseillers dudict <placeName>Neufchastel</placeName> que les
+        choses dessus dictes à nous congneues et adjugées le seel de la
+        mayorie ensemble du signet manuel du secretaire de ladicte
+        justice a nous commandé estre mis en marge en signe de
+        verité le mercredy vingt huictiesme jour d’apvril courant mille
+        cinq cents vingt neuf.</p>
+        
+        <p>
+        Prise a son livre et manual des decretales donné pour coppie et
+        signé par moy ce <date>XXIe apvril 1575</date>h. <persName>B <surname>Horry</surname></persName>.</p>
+        
+        
+        <p>Sur laquelle coppie escripte & signée par feu le secretaire
+        & commissaire Blaise Horry, la presente a esté
+        extraicte & collationné par moy <persName>D <surname>Bailliod</surname></persName>.</p>
+        
+        
+        <p>iEt par moy not : extraict la presente
+        copie, sur celle prinse par led. <persName>D <surname>Baillod</surname></persName>.</p>            
+        </body>        
+    </text>    
+</TEI>

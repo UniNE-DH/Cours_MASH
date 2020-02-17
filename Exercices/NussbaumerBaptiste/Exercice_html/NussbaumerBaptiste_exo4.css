@@ -1,0 +1,19 @@
+body{background-color: pink;}
+
+h1 {color:green;}
+
+h2{color:blue;font-weight:inherit;}
+
+h3 {color:white;font-size:larger;}
+
+p{font-style: italic;
+margin-left:30px;}
+
+.quatrain{color : blue}
+
+.tercet{color : white}
+
+#1{color:blue}
+
+span[id="1"]{color:red;font-size:250%;font-weight:bolder;font-variant: small-caps;}
+

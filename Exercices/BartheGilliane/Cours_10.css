@@ -1,0 +1,22 @@
+body{background-color: black;}
+
+h1 {font-family:fantasy;
+text-decoration:underline;
+color:darkblue;
+text-align:center;
+text-shadow:3px 2px white}
+
+p{font-family:fantasy; font-style: italic;
+margin: 20px 50px 75px 50px;
+text-align:center;
+outline-style:dotted; outline-color:grey;}
+
+
+
+img{display:block; 
+margin-left:auto; 
+margin-right:auto; 
+width:250px; 
+border-radius:25px;
+box-shadow:5px 5px 5px grey;}
+
