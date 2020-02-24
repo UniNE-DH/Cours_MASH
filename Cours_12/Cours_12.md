@@ -1,5 +1,5 @@
 ---
-title: "Cours_Geneve_2"
+title: "Cours Neuchâtel 12"
 author: "Simon Gabay"
 date: "23/18/2020"
 output:
@@ -35,7 +35,7 @@ Pour indiquer où se trouve le fichier de travail, deux solutions sont possibles
 * ou bien directement dans `R` avec la commande `setwd` (pour *Set working directory*), qui s'utilise de cette manière.
 
 ```{r}
-setwd("~/GitHub/Cours_DH_UniNE/Cours_12")
+setwd("~/GitHub/Cours_2020_UniGE/Cours_Geneve_2")
 ```
 
 **Attention!** Il convient de donner le chemin qui corredpond à votre configuration locale. Une fois la chose faite, cliquez sur `Run` (le bouton qui ressemble à *play*, à droite de la commande *supra*).
@@ -253,7 +253,7 @@ df
 On peut récupérer les informations dans le data frame
 
 ```{r}
-df["Jean","poids"]
+df["Patrick","poids"]
 ```
 
 Il est possible de "découper" des morceaux du tableau
@@ -269,21 +269,37 @@ df$taille
 ```
 
 On peut obtenir des informations statistiques simples sur notre échantillon comme (nous reprenons (presque) les définitions de l'INSEE):
-* La méadiane: la valeur qui partage les données en deux parties égales. [def. INSEE](https://www.insee.fr/fr/metadonnees/definition/c1376)
+* La médiane: la valeur qui partage les données en deux parties égales. [def. INSEE](https://www.insee.fr/fr/metadonnees/definition/c1376)
+
+```{r}
+md<-median(df$poids)
+md
+```
+
 * La moyenne: la somme des données divisée par leur nombre [def. INSEE](https://www.insee.fr/fr/metadonnees/definition/c1970)
-* L'écart-type: il sert à mesurer la dispersion, ou l'étalement, d'un ensemble de valeurs autour de leur moyenne. Plus l'écart-type est faible, plus la population est homogène. [def. INSEE](https://www.insee.fr/fr/metadonnees/definition/c1913)
 
 ```{r}
 #moyenne
 mn<-mean(df$poids)
 mn
-#écart-type
+```
+
+* L'écart-type: il sert à mesurer la dispersion, ou l'étalement, d'un ensemble de valeurs autour de leur moyenne. Plus l'écart-type est faible, plus la population est homogène. [def. INSEE](https://www.insee.fr/fr/metadonnees/definition/c1913)
+
+Dans cette image, la moyenne à une abscisse de 0, l'e premier est écart-type est noté avec le _σ_ (_sigma_).
+
+![center 100%](images/Standard_deviation_diagram.png)
+
+![center 100%](images/Comparison_standard_deviations.png)
+
+```{r}
 std<-sd(df$poids)
 std
-#médiane
-md<-median(df$poids)
-md
-# Il existe une fonction simple qui nous donne quelques informations
+```
+
+Il existe une fonction simple `summary()` qui nous donne quelques informations:
+
+```{r}
 summary(df$poids)
 ```
 
@@ -294,13 +310,19 @@ Ces informations nous permettent de décrire notre échantillon
 hist(df$poids,main="Poids",col="red",xlab="Poids",ylab="Fréquence")
 ```
 
-On peut vérifier si la distribution est normale avec `qqnorm`. Pour qu'elle le soit, il faut que les points montent constamment
+On peut vérifier si la distribution est normale avec `qqnorm`. Pour qu'elle le soit, il faut que les points (qui dessinent une fonction de répartition _Φ_ (_phi_)) montent constamment, comme dans ces exemples:
+
+![center 100%](images/2000px-Normal_Distribution_CDF.png)
 
 ```{r}
 qqnorm(df$poids,main="Poids (distribution)")
 ```
 
-Comme la distribution est normale, on propose un histogramme proposant la densité de probabilité avec quelques informations supplémentaires
+Si la répartition de nos données suivent une loi normale, nous devons obtenir une densité de probabilité en forme de cloche, comme ici:
+
+![center 100%](images/2000px-Normal_Distribution_PDF.png)
+
+Comme la distribution est normale, on peut superposer à notre un histogramme la courbe de densité qui lui est associée, mais aussi la moyenne et les _σ_
 
 ```{r}
 #on affiche la densité plutôt que la fréquence en ordonnée avec le paramètre `freq=F`
