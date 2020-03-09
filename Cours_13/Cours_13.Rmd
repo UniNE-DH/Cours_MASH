@@ -13,7 +13,7 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Préparatifs
+# 1. Préparatifs
 
 J'installe ma session de travail
 
@@ -30,6 +30,8 @@ Première chose à faire: importer le corpus. Il s'agit d'un csv, donc nous util
 
 ```{r}
 theatre = "moliere_racine.tsv"
+# le paramètre `header` permet de signaler que la première ligne contient le nom des colonnes
+# le paramètre `sep` permet d'indiquer comment sont marquées les colonnes. La regex `\t` indique que nous utilisons des tabulations (notre fichier est donc en fait un `tsv`).
 theatre <- read.csv(theatre, header=TRUE, sep = "\t", quote = '',fill = TRUE)
 ```
 
@@ -49,9 +51,11 @@ Je peux sélectionner juste une colonne (ici "auteur"). Afin de ne pas tout affi
 
 ```{r}
 head(theatre$auteur)
+# Je peux augmenter le nombre de résultat affiché en indiquant le chiffre souhaité de la manière suivante:
+#head(theatre$auteur,10)
+#Pour les dernières entrées, il existe une fonction `tail`
+#tail(theatre$auteur)
 ```
-
-# Je construis et nettoye mon corpus
 
 Toutes les colonnes sont des métadonnées, sauf ```theatre$texteLemmat``` qui contient des morceaux de pièces de 1000 mots afin de simplifier le travail. Il va falloir transformer le contenu de cette colonne en matrice terme-document (_Document Term Matrix_): je crée un tableau avec une colonne pour chaque mot de mon corpus, et un rang par texte de mon corpus.
 
@@ -76,7 +80,11 @@ corpus
 ncol(as.matrix(DocumentTermMatrix(corpus)))
 ```
 
-Théoriquement je devrais nettoyer mes données. En effet: "pas" et "Pas" ne sont pas les mêmes chaînes de caractères (il y a une majuscule dans le second), et peut-être même pas les mêmes mots (adverbe ou substantif?). Je dois donc au moins retirer les majuscules (avec ```tolower()```), ou même lemmatiser (de préférence avec un outil spécifique, qui n'existe pas dans ```R```). Ici, nous fournissons le texte déjà lemmatisé pour simplifier le travail
+# 2. Je nettoie mon corpus
+
+Il est absolument fondamental de nettoyer mon corpus de travail. En effet: "pas" et "Pas" ne sont pas les mêmes chaînes de caractères (il y a une majuscule dans le second), et peut-être même pas les mêmes mots (adverbe ou substantif?). Je dois donc au moins retirer les majuscules (avec ```tolower()```), ou même lemmatiser (de préférence avec un outil spécifique, qui n'existe pas dans ```R```). Ici, nous fournissons le texte déjà lemmatisé pour simplifier le travail
+
+## 2.1 Les _stopwords_
 
 Comme notre objectif est d'avoir une approche thématique et conserver des mots potentiellement porteurs de sens: il faut donc retirer tous les mots les plus fréquents qui n'apportent, comme les les pronoms, les pronoms adverbiaux, les prépositions…  Ces mots sont appelés des _stopwords_ et une liste est fournie dans la fonction ```stopwords()```
 
@@ -84,7 +92,7 @@ Comme notre objectif est d'avoir une approche thématique et conserver des mots 
 stopwords("french")
 ```
 
-Il existe des listes alternatives en ligne, plus complètes: Je dois donc
+Il existe des listes alternatives en ligne, plus complètes:
 
 ```{r}
 #Donner un nom au fichier que je télécharge
@@ -108,7 +116,7 @@ corpus_clean <- tm_map(corpus, removeWords, stopword_enLigne)
 inspect(corpus_clean[6])
 ```
 
-Malheureusement cette commande ```tm_map``` fonctionne mal, et il est préférable de nettoyer le texte "à l'ancienne"
+Malheureusement cette commande ```tm_map``` fonctionne mal, et il est préférable de nettoyer le texte "à l'ancienne", en créant sa propore fonction.
 
 ```{r}
 #Je recharge mon corpus
@@ -151,6 +159,8 @@ dtm <- DocumentTermMatrix(corpus_clean)
 rownames(dtm) <- theatre$genre
 ```
 
+## 2.2 Les mots peu fréquents
+
 Je peux désormais observer la fréquence des mots: je retrouve la loi de Zipf dans la distribution de mes données
 
 ```{r}
@@ -183,7 +193,7 @@ length(motsTresFrequents)
 head(motsTresFrequents,50)
 ```
 
-Je fais un très grand ménage, avec une fonction que je crée pour retirer les mots fréquents:
+Je fais un très grand ménage, avec une fonction que je crée pour retirer les mots les moins fréquents:
 
 ```{r}
 #Je crée une fonction ```grandMenage```
@@ -218,39 +228,63 @@ colnames(freq) <- c("frequence")
 ggplot(freq, aes(x=frequence)) + geom_density()
 ```
 
-Je nettoye un peu ma DTM et pour éliminer les rangs vides
+Je nettoye un peu ma DTM pour éliminer les rangs vides
 
 ```{r}
 rowTotals <- apply(dtm , 1, sum)      #Find the sum of words in each Document
 dtm_clean   <- dtm[rowTotals> 0, ]    #remove all docs without words
 ```
 
-Avec mon corpus bien propre, je peux désormais faire une allocation de Dirichlet latente ( _Latent Dirichlet allocation_, LDA). On peut faire varier le nombre de thèmes ( _topic_) en modifiant la variable ```k```: nous allons tenter de définir 2, puis 3 sujets. Ce chiffre nous paraît optimal, car nous travaillons sur un petit corpus de quelques genres seulement (et ce sont ces genres qui nous intéressent).
+# 3. _Topic modeling_
 
-Le _LDA_  est modèle génératif probabiliste permettant d’expliquer des ensembles d’observations, par le moyen de groupes non observés, eux-mêmes définis par des similarités de données. C'est un système de classification non supervisé
+**Remarque préliminaire**: le _topic modeling_ requiert des (très) grands corpus, si possible en centaines de documents. Pas de panique cependant: une manière de les obtenir est de diviser chaque textes en plusieurs documents qui forment une unité sémantique. Par exemple le chapitre, la scène, le paragraphe, ou bien (comme c'est le cas pour notre exercice) de 1000 mots.
+
+## 3.1 Explication théorique
+
+Un thème (_topic_) est un _clusters_ de mots, _i.e._ une récurrence de co-occurrence.
+
+![100% center](images/co-occurrence.png)
+
+Source: [Wikisource](https://commons.wikimedia.org/wiki/File:Khcoder_net_e.png)
+
+Le principe du _topic modeling_ est proche de celui de surligner un texte avec plusieurs couleurs: une pour chaque sujet, thème ou _topic_.
+
+![100% center](images/souligner.png)
+
+Une telle image soulève deux questions sur lesquelles nous reviendront plus tard:
+* un article peut-il contenir plusieurs sujets?
+* un mot peut-il n'appartenir qu'à un seul sujet?
+
+Afin de reconnaître ces sujets, on va recourir à une allocation de Dirichlet latente ( _Latent Dirichlet allocation_, LDA).
+* C'est une approche non supervisée, c'est-à-dire qu'elle ne nécessite pas d'annotation préalable de données.
+* Il nous faut définir à l'avance un nombre de sujets/thèmes (_infra_ la variable `k`)
+
+Le _LDA_  est modèle génératif probabiliste permettant d’expliquer des ensembles d’observations, par le moyen de groupes non observés, eux-mêmes définis par des similarités de données.
 
 ![150% center](images/LDA_formula.png)
 
 Source: [wikipedia](https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation)
 
 Dans ce graph:
-* M est le nombre de documents (corpus)
-* N est le nombre de mots (document)
-* W est un mot observé
+* _M_ est le nombre de documents (corpus)
+* _N_ est le nombre de mots (document)
+* _W_ est un mot observé
 
 La partie _latente_ (cachée):
-* Z est un _topic_ attribué à un _w_
-* θ est le mélange des _topics_ à l'échelle du document
+* _Z_ est un _topic_ attribué à un _w_
+* _θ_ est le mélange des _topics_ à l'échelle du document
 
 Deux paramètres pour la distribution
-* α est la distribution par document. Si sa valeur est élevée, le document tend à contenir plusieurs _topics_, si la valeur est faible le nombre de _topics_ est limité 
-* β est la distribution par _topic_. Si sa valeur est élevée, un même mot se retrouve dans plusieurs _topics_ (qui se ressemblent donc), si la valeur est faible les similarités entre les _topics_ est faible 
+* _α_ est la distribution par document. Si sa valeur est élevée, le document tend à contenir plusieurs _topics_, si la valeur est faible le nombre de _topics_ est limité 
+* _β_ est la distribution par _topic_. Si sa valeur est élevée, un même mot se retrouve dans plusieurs _topics_ (qui se ressemblent donc), si la valeur est faible les similarités entre les _topics_ est faible 
 
 ![150% center](images/LDA_dessin.png)
 
 Source: [wikipedia](https://commons.wikimedia.org/wiki/File:Latent_Dirichlet_allocation.svg)
 
-Le résultat produit est une matrice avec pour chaque mot la probabiltié qu'il appartienne à un des différents _topics_
+## 3.2 Une LDA
+
+Le modèle va classer aléatoirement tous les mots en _n_ sujets, et tenter d'affiner cette répartition de manière itérative en observant les contextes:
 
 ```{r}
 #J'installe une nouvelle librairie pour le _topic modeling_
@@ -265,7 +299,16 @@ lda_2 <- LDA(dtm_clean, k= k, control = list(seed = 1234))
 lda_3 <- LDA(dtm_clean, k= k+1, control = list(alpha = 0.1))
 ```
 
-Les paramètres de Gibbs permettent une sophistication du système précédent. C'est une probabilité conditionnelle qui s'appuie, pour calculer le β d'un mot, sur le β des mots voisins. Pour ce faire nous devons déterminer:
+Le résultat produit est une matrice avec pour chaque mot la probabilité qu'il appartienne à un des différents _topics_. On donne un score _β_, qui est celui présenté infra.
+
+```{r}
+topics <- tidy(lda_gibbs_2, matrix = "beta")
+topics
+```
+
+## 3.3 Les paramètres de Gibbs
+
+Les paramètres de Gibbs permettent une sophistication du système précédent. C'est une probabilité conditionnelle qui s'appuie, pour calculer le _β_ d'un mot, sur le _β_ des mots voisins. Pour ce faire nous devons déterminer:
 1. À quel point un document aime un _topic_
 2. À quel pount un _topic_ aime un mot
 
@@ -294,12 +337,10 @@ Le _topic_ 1 est le plus représenté dans le document, et _Autoroute_ est déj�
 |           | topic 1 | topic 2 | topic 3 |
 |-----------|---------|---------|---------|
 | Voiture   |   34    |   49    |    75   |
-| Autoroute | **151 **|   50    |    70   |
+| Autoroute | **151** |   50    |    70   |
 | Musique   |   34    |    4    |   170   |
 | Vélo      |   543   |    2    |   150   |
 | Vacances  |   23    |   70    |   563   |
-
-Combien un document aime le topic, combien un _topic_ aime un mot.
 
 ```{r}
 ## Set parameters for Gibbs sampling
@@ -307,7 +348,7 @@ Combien un document aime le topic, combien un _topic_ aime un mot.
 burnin <- 2000
 #Après cela il va encore tourner 2000 fois
 iter <- 2000
-# Il ne va enregistrer le résultat que tous les 500 itérations
+# Il ne va enregistrer le résultat que toutes les 500 itérations
 thin <- 500
 #seed et nstart pour la reproductibilité
 SEED=c(1, 2, 3, 4, 5)
@@ -321,7 +362,7 @@ lda_gibbs_2 <- LDA(dtm_clean, k, method="Gibbs", control=list(nstart=nstart, see
 lda_gibbs_3 <- LDA(dtm_clean, k+1, method="Gibbs", control=list(nstart=nstart, seed=seed, best=best, burnin=burnin, iter=iter, thin=thin))
 ```
 
-Je peux désormais voir les premiers résultats pour chacun des modèles
+Je peux désormais voir les premiers résultats pour chacun des modèles. Il s'agit de de mots dont la fréquence d'utilisation est corrélée
 
 ```{r}
 "LDA 2"
@@ -338,11 +379,14 @@ termsTopic <- as.data.frame(terms(lda_gibbs_3,10))
 head(termsTopic,11)
 ```
 
-Nous allons utiliser ```lda_gibbs_2``` et construire une matrice avec les β des tokens (pour les ɣ, et donc des probabilités par document, on aurait mis ```matrix = "gamma"```). Chaque token est répété deux fois, avec une probabilité pour chaque _topic_
+Nous allons utiliser ```lda_gibbs_2``` et construire une matrice avec les _β_ des tokens (pour les ɣ, et donc des probabilités par document, on aurait mis ```matrix = "gamma"```). Chaque token est répété deux fois, avec une probabilité pour chaque _topic_:
+
 ```{r}
-topics <- tidy(lda_gibbs_2, matrix = "beta")
+topics <- tidy(lda_2, matrix = "beta")
 topics
 ```
+
+# 4. Visualisation
 
 ```{r}
 #Je vais encore solliciter une nouvelle librairie
@@ -360,14 +404,13 @@ top_terms <- topics %>%
 #Je fais un graph
 top_terms %>%
   mutate(term = reorder_within(term, beta, topic)) %>%
-  ggplot(aes(term, beta, fill = factor(topic))) +
-  geom_col(show.legend = FALSE) +
-  facet_wrap(~ topic, scales = "free") +
-  coord_flip() +
-  scale_x_reordered()
+  ggplot(aes(term, beta, fill = factor(topic))) + geom_col(show.legend = FALSE) +
+                                                  facet_wrap(~ topic, scales = "free") +
+                                                  coord_flip() +
+                                                  scale_x_reordered()
 ```
 
-`Je vais désormais associer chaque mot à l'un des 5 genres possibles, pour déterminer auquel mes tokens sont rattachés, et découvrir (potentiellement quel genre se cacher derrière quel _topic_
+Je vais désormais associer chaque mot à l'un des 5 genres possibles, pour déterminer auquel mes tokens sont rattachés, et découvrir (potentiellement quel genre se cacher derrière quel _topic_
 
 ```{r}
 if (!require("reshape2")){
@@ -376,7 +419,11 @@ if (!require("reshape2")){
 }
 df <- melt(as.matrix(dtm_clean))
 df <- df[df$Terms %in% findFreqTerms(dtm_clean, lowfreq = 800), ]
-ggplot(df, aes(as.factor(Docs), Terms, fill=log(value))) + geom_tile() + xlab("Genres") + scale_fill_continuous(low="#FEE6CE", high="#E6550D") + theme(axis.text.x = element_text(angle=90, hjust=1))
+ggplot(df, aes(as.factor(Docs), Terms, fill=log(value))) +
+                                             geom_tile() +
+                                             xlab("Genres") +
+                                             scale_fill_continuous(low="#FEE6CE", high="#E6550D") +
+                                             theme(axis.text.x = element_text(angle=90, hjust=1))
 ```
 
 ```{r, fig.width=12, fig.height=12}
@@ -386,7 +433,8 @@ melted = melt(tt[,findFreqTerms(dtm_clean, 1000,10000)])
 colnames(melted) <- c("Topics", "Terms", "value")
 melted$Topics <- as.factor(melted$Topics)
 ggplot(data = melted, aes(x=Topics, y=Terms, fill=value)) + 
-  geom_tile() + theme(text = element_text(size=35))
+                                              geom_tile() +
+                                              theme(text = element_text(size=35))
 ```
 
 ```{r, fig.width=12, fig.height=12}
@@ -396,7 +444,8 @@ melted = melt(tt[,findFreqTerms(dtm_clean, 1000,10000)])
 colnames(melted) <- c("Topics", "Terms", "value")
 melted$Topics <- as.factor(melted$Topics)
 ggplot(data = melted, aes(x=Topics, y=Terms, fill=value)) + 
-  geom_tile() + theme(text = element_text(size=35))
+                                              geom_tile() +
+                                              theme(text = element_text(size=35))
 ```
 
 ```{r}
@@ -405,8 +454,6 @@ rownames(DocumentTopicProbabilities) <- rownames(corpus_clean)
 head(DocumentTopicProbabilities)
 ```
 
-
-### Wordclouds
 
 Nous allons désormais faire des _word clouds_. Pour cela appelons (installons?) les libraries suivantes:
 
