@@ -4,9 +4,9 @@ author: "Simon Gabay"
 date: "17/03/2020"
 output:
   ioslides_presentation: default
-  html_notebook: default
   beamer_presentation: default
   slidy_presentation: default
+  html_notebook: default
 ---
   
 ```{r setup, include=FALSE}
@@ -131,10 +131,16 @@ Je peux désormais fabriquer mon réseau avec la fonction `plot`:
 plot(data) 
 ```
 
-Il existe une fonction alternative `plot.igraph`
+Il existe une fonction alternative `plot.igraph`, qui fait la même chose
 
 ```{r}
 plot.igraph(data) 
+```
+
+Il existe enfin une fonction `tkplot` qui est un prototype d'interface utilisateur:
+
+```{r}
+tkplot(data)
 ```
 
 Je dispose d'un grand nombre de paramètres pour modifier l'apparence de mon graph et le rendre (si on en a le talent) esthétique:
@@ -164,9 +170,10 @@ On peut customiser encore plus la décoration en intervenant plus lourdement sur
 V(data)$type
 #je copie le contenu de cette colonne dans un nouvel objet
 to_colors<-V(data)$type
-#Je substitue toute les cellules avec l'information `auteur` par la couleur souhaitée
+#Je substitue toute les cellules avec l'information `libraire` par la couleur souhaitée
 to_colors<-replace(to_colors,to_colors=="Libraire","orange")
 to_colors
+#Je continue avec les autres valeurs
 to_colors<-replace(to_colors,to_colors=="Auteur","green")
 to_colors<-replace(to_colors,to_colors=="Imprimeur","red")
 #J'obtiens un nouvel objet avec des couleurs à la place des labels
@@ -260,6 +267,7 @@ plot(data_simplified,
      #taille de la police
      vertex.label.cex=0.6
      )
+title("Et voilà!")
 #J'ajoute une petite légende
 legend(x=-2, y=-0.5, c("Auteur","Libraire", "Imprimeur"), pch=21,
        col="#777777", pt.bg=c("green", "orange", "red"), pt.cex=1, cex=.8, bty="n", ncol=1)
