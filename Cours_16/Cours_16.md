@@ -367,15 +367,14 @@ title("700 itérations", outer = TRUE)
 
 ## _DrL_
 
-Martin, S., Brown, W.M., Klavans, R., Boyack, K.W., DrL: Distributed Recursive (Graph) Layout. SAND Reports, 2008. 2936: p. 1-10.
-
 Le nom a changé plusieurs fois: d'abord rebaptisé _vxOrd_, on parle d'_OpenOrd_.
 
-S. Martin, W. M. Brown, R. Klavans, and K. Boyack (to appear, 2011), "OpenOrd: An Open-Source Toolbox for Large Graph Layout," SPIE Conference on Visualization and Data Analysis (VDA).
+* Martin, S., Brown, W.M., Klavans, R., Boyack, K.W., DrL: Distributed Recursive (Graph) Layout. SAND Reports, 2008. 2936: p. 1-10.
+* S. Martin, W. M. Brown, R. Klavans, and K. Boyack (to appear, 2011), "OpenOrd: An Open-Source Toolbox for Large Graph Layout," SPIE Conference on Visualization and Data Analysis (VDA).
 
 Plus d'informations [ici](https://github.com/gephi/gephi/wiki/OpenOrd)
 
-Il va tenter "d'étirer" le graphe au maximum en coupant les liens les plus longs, et séparant donc plus nettement les clusters. Comme le gaphe doit être nécessairement plus grand, chargeons un gros graphe tiré de `igraphdata`, que l'on trace:
+Il va tenter de faire ressortir au maximum des grands clusters très nets en coupant les liens les plus longs. Evidemment cet algorithme nécessite des graphes de grande taille, nous chargeons donc un gros jeu de données tiré du package `igraphdata`.
 
 ```{r}
 data("USairports")
@@ -678,4 +677,3 @@ dev.off()
 ![100% center](monGraph.png)
 
 ![100% center](monGraph.svg)
-
