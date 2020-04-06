@@ -573,8 +573,7 @@ Je peux produire une visualisation interactive directement dans `R`. Je prépare
 
 ```{r}
 # je convertis mon igraphe en une liste  composée de deux data.frames (nodes et edges)
-data_prepared <- remove.vertex.attribute(data, "size")
-data_3d_vis <- toVisNetworkData(data_prepared)
+data_3d_vis <- toVisNetworkData(data)
 
 # Pour le menu déroulant (cf infra)
 names <- sort(data_3d_vis$nodes$label)
