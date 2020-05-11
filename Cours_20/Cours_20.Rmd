@@ -305,7 +305,7 @@ write(sales_timeline, "output.json")
 Je peux désormais créer ma première carte avec timeline.
 
 ```{r}
-  leaflet(data_JSON) %>%
+  leaflet(sales_timeline) %>%
     addTiles() %>%
     setView(lng = 5, lat = 50, zoom = 5) %>%
    # il suffit d'ajouter la fonction addTimeline(), c'est tout
@@ -315,7 +315,7 @@ Je peux désormais créer ma première carte avec timeline.
 Je peux néanmoins faire mieux, et ajouter des options. Jouez un peu avec celles-ci pour apprendre à les maîtriser.
 
 ```{r}
-  leaflet(data_JSON) %>%
+  leaflet(sales_timeline) %>%
     addTiles() %>%
     setView(lng = 5, lat = 50, zoom = 5) %>%
     addTimeline(
@@ -335,7 +335,7 @@ Je peux néanmoins faire mieux, et ajouter des options. Jouez un peu avec celles
 Je peux aussi modifier la forme des marqueurs (_marker_) que j'utilise sur ma carte.
 
 ```{r}
-  leaflet(data_JSON) %>%
+  leaflet(sales_timeline) %>%
     addTiles() %>%
     setView(lng = 5, lat = 50, zoom = 5) %>%
     addTimeline(
